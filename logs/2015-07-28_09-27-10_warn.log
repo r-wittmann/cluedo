@@ -1,0 +1,47 @@
+[FATAL] 09:31:54.758 [Thread-21] model.Global - gameID not found
+[FATAL] 09:31:55.805 [Thread-13] model.Global - gameID not found
+[FATAL] 09:31:56.575 [Thread-19] model.Global - gameID not found
+[FATAL] 09:31:57.442 [Thread-25] model.Global - gameID not found
+[ERROR] 09:45:28.535 [JavaFX Application Thread] network.client.ClientReceive - received error msg: 
+[ERROR] 09:45:28.536 [JavaFX Application Thread] network.client.ClientReceive - {"type":"error","message":"Da hast du den falschen verdächtigt."}
+[FATAL] 09:46:13.787 [Thread-15] model.Global - gameID not found
+[FATAL] 09:46:15.592 [Thread-21] model.Global - gameID not found
+[FATAL] 09:46:15.680 [Thread-17] model.Global - gameID not found
+[FATAL] 09:46:22.033 [Thread-23] model.Global - gameID not found
+[ERROR] 09:48:27.180 [Thread-30] network.server.NetworkRunnable - java.net.SocketException: Socket is closed
+[FATAL] 09:49:17.643 [Thread-19] model.Global - gameID not found
+[ERROR] 09:50:43.719 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:50:57.934 [Thread-19] network.server.ServerClientThreadRunnable - Farbe oder Nick schon vergeben!
+[ERROR] 09:51:11.841 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:11.860 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:21.455 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:23.074 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:23.922 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:23.994 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:24.322 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:24.521 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:24.522 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:24.604 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:24.605 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:24.795 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:24.882 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[ERROR] 09:51:28.254 [JavaFX Application Thread] model.Gamefield - no player found for: Rainer
+[FATAL] 09:51:50.933 [Thread-34] model.Global - gameID not found
+[FATAL] 09:51:50.972 [Thread-38] model.Global - gameID not found
+[FATAL] 09:51:51.987 [Thread-21] model.Global - gameID not found
+[FATAL] 09:51:52.189 [Thread-21] model.Global - gameID not found
+[FATAL] 09:52:04.280 [Thread-15] model.Global - gameID not found
+[FATAL] 09:52:12.073 [Thread-13] model.Global - gameID not found
+[ERROR] 09:52:34.470 [Thread-15] network.server.NetworkRunnable - java.net.SocketException: Software caused connection abort: socket write error
+[ERROR] 09:52:38.108 [Thread-19] network.server.NetworkRunnable - java.net.SocketException: Software caused connection abort: socket write error
+[ERROR] 09:52:47.349 [Thread-34] network.server.NetworkRunnable - java.net.SocketException: Software caused connection abort: socket write error
+[ERROR] 09:52:56.110 [Thread-13] network.server.NetworkRunnable - java.net.SocketException: Software caused connection abort: socket write error
+[ERROR] 09:52:59.957 [Thread-19] network.server.ServerClientThreadRunnable - Farbe oder Nick schon vergeben!
+[FATAL] 09:54:15.177 [Thread-38] model.Global - gameID not found
+[FATAL] 09:54:15.224 [Thread-34] model.Global - gameID not found
+[FATAL] 09:56:52.061 [Thread-15] model.Global - gameID not found
+[FATAL] 09:56:52.277 [Thread-15] model.Global - gameID not found
+[ERROR] 09:57:08.485 [Thread-23] network.server.NetworkRunnable - java.net.SocketException: Software caused connection abort: socket write error
+[ERROR] 09:57:08.488 [Thread-23] network.server.NetworkRunnable - java.net.SocketException: Socket is closed
+[FATAL] 09:57:44.897 [Thread-19] model.Global - gameID not found
+[ERROR] 09:57:44.898 [Thread-19] network.server.NetworkRunnable - java.net.SocketException: Connection reset

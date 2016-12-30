@@ -1,0 +1,2558 @@
+[INFO ] 14:06:43.076 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 14:06:43.081 [Thread-6] network.udp.UdpRunnable - got new UDP-Broadcast from 192.168.178.117 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 14:06:43.084 [Thread-7] network.server.Server - Server established on port 30305 ... listening for connections...
+[INFO ] 14:06:54.687 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 14:06:54.693 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 14:06:54.695 [Thread-6] network.udp.UdpRunnable - got new UDP-Broadcast from 192.168.178.117 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 14:06:54.695 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 192.168.178.117 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 14:06:54.696 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 14:06:54.696 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:06:54.696 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 14:07:00.671 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 14:07:00.672 [JavaFX Application Thread] presenter.LoginPresenter - 192.168.178.117 30305 DefaultName044 muffigemotten
+[INFO ] 14:07:00.680 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 14:07:00.681 [JavaFX Application Thread] network.client.ClientSent - try ip: 192.168.178.117 port: 30305
+[INFO ] 14:07:00.683 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName044",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 14:07:00.684 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName044","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 14:07:00.693 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:07:00.694 [Thread-10] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 14:07:00.694 [Thread-10] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 14:07:00.694 [Thread-10] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 14:07:00.695 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DefaultName044"],"type":"login successful","expansions":["chat"],"game array":[]}
+[DEBUG] 14:07:00.695 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:00.695 [Thread-10] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName044
+[INFO ] 14:07:00.695 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": ["DefaultName044"],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[INFO ] 14:07:00.695 [Thread-10] network.server.ServerClientThreadRunnable - New Client: DefaultName044
+[INFO ] 14:07:00.695 [Thread-10] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DefaultName044, 
+[INFO ] 14:07:00.695 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:07:00.695 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:07:00.696 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:07:00.696 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:07:00.696 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:07:00.696 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:00.696 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[DEBUG] 14:07:00.697 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:07:00.697 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:00.697 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:07:03.639 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 14:07:03.641 [Thread-6] network.udp.UdpRunnable - got new UDP-Broadcast from 192.168.178.117 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 14:07:03.641 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 192.168.178.117 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 14:07:03.641 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 192.168.178.117 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 14:07:03.642 [UPDThread] network.client.ClientReceive - parse type of jsonobject
+[KI   ] 14:07:03.642 [JavaFX Application Thread] Ki.Ki - Ok, let's connect to server..
+[INFO ] 14:07:03.642 [UPDThread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 14:07:03.642 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 14:07:03.643 [JavaFX Application Thread] network.client.ClientSent - try ip: 192.168.178.117 port: 30305
+[INFO ] 14:07:03.643 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DR.roBOTo305",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 14:07:03.643 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DR.roBOTo305","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 14:07:03.647 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:07:03.647 [Thread-13] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 14:07:03.647 [Thread-13] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 14:07:03.648 [Thread-13] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 14:07:03.648 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DR.roBOTo305","DefaultName044"],"type":"login successful","expansions":["chat"],"game array":[]}
+[DEBUG] 14:07:03.648 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:03.648 [Thread-13] network.server.ServerClientThreadRunnable - To Player BUT : DR.roBOTo305
+[INFO ] 14:07:03.648 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": [
+    "DR.roBOTo305",
+    "DefaultName044"
+  ],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[DEBUG] 14:07:03.648 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:03.648 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DR.roBOTo305","type":"user added"}
+[INFO ] 14:07:03.648 [NetworkThread] network.client.ClientReceive - login to server successful, start parsing server informations
+[DEBUG] 14:07:03.648 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:03.648 [Thread-13] network.server.ServerClientThreadRunnable - New Client: DR.roBOTo305
+[KI   ] 14:07:03.648 [NetworkThread] Ki.KIReactToServer - Hey I am in!
+[INFO ] 14:07:03.648 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DR.roBOTo305",
+  "type": "user added"
+}
+[INFO ] 14:07:03.648 [Thread-13] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DR.roBOTo305, DefaultName044, 
+[DEBUG] 14:07:03.648 [NetworkThread] network.jsonprotocol.ClientJson - found no valid chat message time, replace with actual time
+[INFO ] 14:07:03.648 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:07:03.649 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:07:03.649 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:07:03.649 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:03.649 [JavaFX Application Thread] network.client.ClientReceive - another client connected
+[INFO ] 14:07:03.657 [NetworkThread] network.client.Network - TO SERVER:  {
+  "type": "chat",
+  "message": "Hi I'm DR.roBOTo, for more information send me a private message >help<.",
+  "timestamp": "2016-12-30T13:07:03.000"
+}
+[INFO ] 14:07:03.657 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"type":"chat","message":"Hi I'm DR.roBOTo, for more information send me a private message >help<.","timestamp":"2016-12-30T13:07:03.000"}
+[DEBUG] 14:07:03.657 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:03.658 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:07:03.658 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:03.658 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:07:03.665 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[DEBUG] 14:07:03.666 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:03.666 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"sender":"DR.roBOTo305","type":"chat","message":"Hi I'm DR.roBOTo, for more information send me a private message >help<.","timestamp":"2016-12-30T13:07:03.000"}
+[INFO ] 14:07:03.666 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "sender": "DR.roBOTo305",
+  "type": "chat",
+  "message": "Hi I'm DR.roBOTo, for more information send me a private message >help<.",
+  "timestamp": "2016-12-30T13:07:03.000"
+}
+[DEBUG] 14:07:03.666 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:03.666 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"sender":"DR.roBOTo305","type":"chat","message":"Hi I'm DR.roBOTo, for more information send me a private message >help<.","timestamp":"2016-12-30T13:07:03.000"}
+[DEBUG] 14:07:03.666 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:07:03.666 [NetworkThread] network.client.ClientReceive - parse chat msg
+[INFO ] 14:07:03.666 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "sender": "DR.roBOTo305",
+  "type": "chat",
+  "message": "Hi I'm DR.roBOTo, for more information send me a private message >help<.",
+  "timestamp": "2016-12-30T13:07:03.000"
+}
+[DEBUG] 14:07:03.666 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:07:03.666 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:07:03.666 [JavaFX Application Thread] network.client.ClientReceive - parse chat msg
+[INFO ] 14:07:34.562 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DR.roBOTo305",
+  "type": "chat",
+  "message": "create",
+  "timestamp": "2016-12-30T13:07:34.000"
+}
+[INFO ] 14:07:34.562 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DR.roBOTo305","type":"chat","message":"create","timestamp":"2016-12-30T13:07:34.000"}
+[INFO ] 14:07:34.568 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:07:34.568 [Thread-10] network.server.ServerClientThreadRunnable - To ONLY Player : DefaultName044
+[INFO ] 14:07:34.568 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DR.roBOTo305","sender":"DefaultName044","type":"chat","message":"create","timestamp":"2016-12-30T13:07:34.000"}
+[DEBUG] 14:07:34.568 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:34.568 [Thread-10] network.server.ServerClientThreadRunnable - To ONLY Player : DR.roBOTo305
+[INFO ] 14:07:34.568 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DR.roBOTo305",
+  "sender": "DefaultName044",
+  "type": "chat",
+  "message": "create",
+  "timestamp": "2016-12-30T13:07:34.000"
+}
+[INFO ] 14:07:34.569 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DR.roBOTo305","sender":"DefaultName044","type":"chat","message":"create","timestamp":"2016-12-30T13:07:34.000"}
+[DEBUG] 14:07:34.569 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:07:34.569 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:07:34.569 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:34.569 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DR.roBOTo305",
+  "sender": "DefaultName044",
+  "type": "chat",
+  "message": "create",
+  "timestamp": "2016-12-30T13:07:34.000"
+}
+[DEBUG] 14:07:34.569 [JavaFX Application Thread] network.client.ClientReceive - parse chat msg
+[DEBUG] 14:07:34.569 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:07:34.569 [NetworkThread] network.client.ClientReceive - parse chat msg
+[KI   ] 14:07:34.569 [NetworkThread] Ki.KIReactToServer - Got a crazy message from DefaultName044
+[KI   ] 14:07:34.570 [NetworkThread] Ki.KIReactToServer - My favourite color this game is: WHITE
+[KI   ] 14:07:34.570 [NetworkThread] Ki.KIReactToServer - Then create a game!
+[INFO ] 14:07:34.574 [NetworkThread] network.client.Network - TO SERVER:  {
+  "color": "white",
+  "type": "create game"
+}
+[INFO ] 14:07:34.574 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"color":"white","type":"create game"}
+[DEBUG] 14:07:34.574 [NetworkThread] network.jsonprotocol.ClientJson - found no valid chat message time, replace with actual time
+[INFO ] 14:07:34.574 [NetworkThread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName044",
+  "type": "chat",
+  "message": "Created a new game with my favourite color WHITE",
+  "timestamp": "2016-12-30T13:07:34.000"
+}
+[INFO ] 14:07:34.578 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:07:34.578 [Thread-13] network.server.ServerClientThreadRunnable - createGameHandler
+[INFO ] 14:07:34.586 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["do nothing"]}}
+[DEBUG] 14:07:34.586 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:34.586 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 14:07:34.586 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["do nothing"]}}
+[DEBUG] 14:07:34.586 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:07:34.586 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:34.586 [Thread-13] network.server.ServerClientThreadRunnable - Spiel mit GameID 1 erstellt
+[INFO ] 14:07:34.586 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:07:34.586 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 14:07:34.586 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:07:34.586 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:07:34.586 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName044","type":"chat","message":"Created a new game with my favourite color WHITE","timestamp":"2016-12-30T13:07:34.000"}
+[DEBUG] 14:07:34.586 [NetworkThread] network.client.ClientReceive - gameId 1 created
+[DEBUG] 14:07:34.586 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:07:34.587 [JavaFX Application Thread] network.client.ClientReceive - gameId 1 created
+[DEBUG] 14:07:34.587 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:34.587 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:07:34.587 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:34.587 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:07:34.590 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:07:34.590 [Thread-13] network.server.ServerClientThreadRunnable - To ONLY Player : DR.roBOTo305
+[INFO ] 14:07:34.590 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DefaultName044","sender":"DR.roBOTo305","type":"chat","message":"Created a new game with my favourite color WHITE","timestamp":"2016-12-30T13:07:34.000"}
+[DEBUG] 14:07:34.590 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:34.590 [Thread-13] network.server.ServerClientThreadRunnable - To ONLY Player : DefaultName044
+[INFO ] 14:07:34.590 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DefaultName044",
+  "sender": "DR.roBOTo305",
+  "type": "chat",
+  "message": "Created a new game with my favourite color WHITE",
+  "timestamp": "2016-12-30T13:07:34.000"
+}
+[DEBUG] 14:07:34.590 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:07:34.590 [NetworkThread] network.client.ClientReceive - parse chat msg
+[INFO ] 14:07:34.590 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DefaultName044","sender":"DR.roBOTo305","type":"chat","message":"Created a new game with my favourite color WHITE","timestamp":"2016-12-30T13:07:34.000"}
+[DEBUG] 14:07:34.590 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:34.591 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DefaultName044",
+  "sender": "DR.roBOTo305",
+  "type": "chat",
+  "message": "Created a new game with my favourite color WHITE",
+  "timestamp": "2016-12-30T13:07:34.000"
+}
+[DEBUG] 14:07:34.596 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:07:34.596 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:07:34.596 [JavaFX Application Thread] network.client.ClientReceive - parse chat msg
+[INFO ] 14:07:54.860 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "color": "green",
+  "type": "join game"
+}
+[INFO ] 14:07:54.860 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"color":"green","type":"join game"}
+[INFO ] 14:07:54.865 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:07:54.865 [Thread-10] network.server.ServerClientThreadRunnable - joinGameHandler
+[INFO ] 14:07:54.866 [Thread-10] network.server.ServerClientThreadRunnable - Farbe noch nicht vergeben. Spielbeitritt möglich
+[INFO ] 14:07:54.866 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"player added","player":{"nick":"DefaultName044","color":"green","playerstate":["do nothing"]}}
+[DEBUG] 14:07:54.866 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:54.866 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"player added","player":{"nick":"DefaultName044","color":"green","playerstate":["do nothing"]}}
+[DEBUG] 14:07:54.866 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:07:54.866 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "player added",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 14:07:54.866 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:07:54.867 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:54.867 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "player added",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 14:07:54.867 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:07:54.867 [NetworkThread] Ki.KIReactToServer - not a KI game 1
+[INFO ] 14:07:54.867 [Thread-10] network.server.ServerClientThreadRunnable - Player DefaultName044 zu Spiel 1 hinzugefügt
+[DEBUG] 14:07:54.867 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:07:54.867 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:07:54.867 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:07:54.868 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:07:55.030 [JavaFX Application Thread] view.DiceView - view dices: pip1 0 pip2 0 sum 0
+[INFO ] 14:07:55.031 [JavaFX Application Thread] view.CCardView - no card to render
+[INFO ] 14:07:55.167 [JavaFX Application Thread] view.CCardView - no card to render
+[INFO ] 14:07:55.168 [JavaFX Application Thread] view.CCardView - no card to render
+[DEBUG] 14:07:55.205 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:07:55.205 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:07:55.205 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:08:00.293 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "start game"
+}
+[INFO ] 14:08:00.293 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"start game"}
+[INFO ] 14:08:00.299 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:00.299 [Thread-10] network.server.ServerClientThreadRunnable - startGameHandler
+[INFO ] 14:08:00.299 [Thread-10] network.server.ServerClientThreadRunnable - To ONLY Player : DR.roBOTo305
+[INFO ] 14:08:00.300 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"cards":["revolver","white","candlestick","hall","conservatory","rope","lounge","green","purple"],"type":"player_cards"}
+[DEBUG] 14:08:00.300 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:00.300 [Thread-10] network.server.ServerClientThreadRunnable - To ONLY Player : DefaultName044
+[INFO ] 14:08:00.300 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "cards": [
+    "revolver",
+    "white",
+    "candlestick",
+    "hall",
+    "conservatory",
+    "rope",
+    "lounge",
+    "green",
+    "purple"
+  ],
+  "type": "player_cards"
+}
+[DEBUG] 14:08:00.300 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:00.300 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:00.300 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"cards":["library","study","red","billiard","kitchen","pipe","ballroom","yellow","dagger"],"type":"player_cards"}
+[INFO ] 14:08:00.300 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "cards": [
+    "library",
+    "study",
+    "red",
+    "billiard",
+    "kitchen",
+    "pipe",
+    "ballroom",
+    "yellow",
+    "dagger"
+  ],
+  "type": "player_cards"
+}
+[INFO ] 14:08:00.300 [Thread-10] model.Gamefield - random order: [Ljava.lang.String;@12577259
+[DEBUG] 14:08:00.300 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:00.300 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:00.300 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game started","order":["DR.roBOTo305","DefaultName044"]}
+[DEBUG] 14:08:00.301 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:00.301 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game started","order":["DR.roBOTo305","DefaultName044"]}
+[INFO ] 14:08:00.301 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game started",
+  "order": [
+    "DR.roBOTo305",
+    "DefaultName044"
+  ]
+}
+[INFO ] 14:08:00.301 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:08:00.301 [NetworkThread] Ki.KIReactToServer - set own cards
+[DEBUG] 14:08:00.301 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:00.301 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:00.301 [JavaFX Application Thread] model.Gamefield - Reihenfolge wurde festgelegt
+[DEBUG] 14:08:00.302 [NetworkThread] Ki.KIReactToServer - set own cards
+[INFO ] 14:08:00.302 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:08:00.302 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:00.302 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:08:00.302 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:00.302 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:08:00.302 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:08:00.302 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game started",
+  "order": [
+    "DR.roBOTo305",
+    "DefaultName044"
+  ]
+}
+[DEBUG] 14:08:00.302 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:00.302 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:00.302 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 14:08:00.302 [NetworkThread] model.Gamefield - Reihenfolge wurde festgelegt
+[DEBUG] 14:08:00.302 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:00.302 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:08:00.302 [JavaFX Application Thread] presenter.GameStartPresenter - Spiel Gestartet
+[DEBUG] 14:08:00.302 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:00.302 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[KI   ] 14:08:00.303 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:08:00.309 [JavaFX Application Thread] view.CCardView - no card to render
+[DEBUG] 14:08:00.314 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:00.314 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:00.314 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[DEBUG] 14:08:00.315 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:00.315 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:00.315 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:08:05.075 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[INFO ] 14:08:05.075 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[INFO ] 14:08:05.081 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:05.081 [Thread-10] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:08:05.081 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[2,3],"type":"dice result"}
+[DEBUG] 14:08:05.081 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:05.081 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    2,
+    3
+  ],
+  "type": "dice result"
+}
+[INFO ] 14:08:05.081 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[DEBUG] 14:08:05.082 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:05.082 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:05.082 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[DEBUG] 14:08:05.082 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:05.082 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:05.082 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[INFO ] 14:08:05.082 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:08:05.082 [JavaFX Application Thread] presenter.DicePresenter - trigger render dices
+[DEBUG] 14:08:05.082 [JavaFX Application Thread] view.DiceView - view dices: pip1 2 pip2 3 sum 5
+[DEBUG] 14:08:05.082 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:05.082 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[KI   ] 14:08:05.082 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:08:05.083 [JavaFX Application Thread] presenter.FieldPresenter - calculate possible moves for name DefaultName044 counter GREEN x 9 y 24 pips 5
+[DEBUG] 14:08:05.087 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:05.088 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:05.088 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:08:07.059 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":7,"y":21},"type":"move"}
+[INFO ] 14:08:07.059 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 7,
+    "y": 21
+  },
+  "type": "move"
+}
+[INFO ] 14:08:07.065 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:07.065 [Thread-10] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:08:07.065 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":7,"y":21},"person":"green"},"type":"moved"}
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:07.066 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":7,"y":21},"person":"green"},"type":"moved"}
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:07.066 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:08:07.066 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:08:07.066 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 7,
+      "y": 21
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[INFO ] 14:08:07.066 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 7,
+      "y": 21
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:07.066 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 14:08:07.066 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:07.066 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:07.066 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:07.066 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:07.066 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:08:07.066 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[KI   ] 14:08:07.066 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:08:07.066 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:08:07.066 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:08:07.066 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:07.066 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:08:07.099 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:07.099 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:07.099 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:08:07.100 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:07.100 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:07.100 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[DEBUG] 14:08:07.100 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:07.100 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:07.100 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:08:09.411 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"end turn"}
+[INFO ] 14:08:09.411 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "end turn"
+}
+[INFO ] 14:08:09.411 [JavaFX Application Thread] view.CCardView - no card to render
+[INFO ] 14:08:09.416 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:09.417 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:08:09.417 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.417 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[DEBUG] 14:08:09.417 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.417 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:08:09.417 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:08:09.417 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.417 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[KI   ] 14:08:09.417 [NetworkThread] Ki.KIReactToServer - I can roll the dice! FUCK YEAH
+[INFO ] 14:08:09.417 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:08:09.417 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:08:09.417 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.417 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[INFO ] 14:08:09.417 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[INFO ] 14:08:09.417 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 14:08:09.417 [NetworkThread] Ki.KIReactToServer - Habe roll dice gesendet
+[DEBUG] 14:08:09.417 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:09.418 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:09.418 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:08:09.418 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:09.418 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.418 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:08:09.421 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:09.421 [Thread-13] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:08:09.421 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[2,4],"type":"dice result"}
+[DEBUG] 14:08:09.422 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.422 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[INFO ] 14:08:09.422 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    2,
+    4
+  ],
+  "type": "dice result"
+}
+[DEBUG] 14:08:09.422 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.422 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[DEBUG] 14:08:09.422 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:09.422 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.422 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[INFO ] 14:08:09.422 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:08:09.422 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:09.422 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[KI   ] 14:08:09.422 [NetworkThread] Ki.KIReactToServer - MOVE BITCH get out the way
+[DEBUG] 14:08:09.422 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:09.422 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:09.422 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent - got pimps: 6 X: 14 Y: 24 color: WHITE
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent - possible moves:
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent -   X: 15 Y: 23
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 22
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 20
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent -   X: 17 Y: 21
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent - check rooms
+[DEBUG] 14:08:09.422 [NetworkThread] Ki.MoveAgent - no room found
+[INFO ] 14:08:09.422 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 15,
+    "y": 23
+  },
+  "type": "move"
+}
+[INFO ] 14:08:09.422 [NetworkThread] Ki.KIReactToServer - Ich wollte mich eigentlich bewegen...
+[INFO ] 14:08:09.422 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":15,"y":23},"type":"move"}
+[INFO ] 14:08:09.426 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:09.426 [Thread-13] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:08:09.426 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":15,"y":23},"person":"white"},"type":"moved"}
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.426 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":15,"y":23},"person":"white"},"type":"moved"}
+[INFO ] 14:08:09.426 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 15,
+      "y": 23
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.426 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.426 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:08:09.426 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 15,
+      "y": 23
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.426 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.426 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:08:09.426 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:08:09.426 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:09.426 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.426 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:08:09.426 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.426 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:08:09.426 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[KI   ] 14:08:09.426 [NetworkThread] Ki.KIReactToServer - End this shit
+[INFO ] 14:08:09.426 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:08:09.427 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:08:09.427 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "end turn"
+}
+[INFO ] 14:08:09.427 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"end turn"}
+[DEBUG] 14:08:09.427 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.427 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:08:09.427 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.427 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:08:09.430 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:09.430 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:08:09.430 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.430 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:08:09.430 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.430 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:08:09.430 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:08:09.430 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.430 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[DEBUG] 14:08:09.430 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:08:09.430 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[KI   ] 14:08:09.430 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:08:09.431 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:09.431 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:08:09.431 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:09.431 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:08:09.472 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:09.473 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:09.473 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:08:09.473 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:09.473 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:09.473 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:08:13.071 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[INFO ] 14:08:13.071 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[INFO ] 14:08:13.077 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:13.077 [Thread-10] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:08:13.077 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[2,5],"type":"dice result"}
+[DEBUG] 14:08:13.077 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:13.077 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[DEBUG] 14:08:13.077 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:13.077 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    2,
+    5
+  ],
+  "type": "dice result"
+}
+[DEBUG] 14:08:13.078 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:13.078 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[INFO ] 14:08:13.078 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:08:13.078 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:13.078 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:08:13.078 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[KI   ] 14:08:13.078 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:08:13.078 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:13.078 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:13.078 [JavaFX Application Thread] presenter.DicePresenter - trigger render dices
+[DEBUG] 14:08:13.078 [JavaFX Application Thread] view.DiceView - view dices: pip1 2 pip2 5 sum 7
+[DEBUG] 14:08:13.079 [JavaFX Application Thread] presenter.FieldPresenter - calculate possible moves for name DefaultName044 counter GREEN x 7 y 21 pips 7
+[DEBUG] 14:08:13.083 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:13.083 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:13.083 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:08:15.811 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 8,
+    "y": 19
+  },
+  "type": "move"
+}
+[INFO ] 14:08:15.811 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":8,"y":19},"type":"move"}
+[INFO ] 14:08:15.816 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:15.816 [Thread-10] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:08:15.817 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":8,"y":19},"person":"green"},"type":"moved"}
+[DEBUG] 14:08:15.817 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:15.817 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 8,
+      "y": 19
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:08:15.817 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:15.817 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":8,"y":19},"person":"green"},"type":"moved"}
+[DEBUG] 14:08:15.817 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:15.817 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:08:15.817 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 8,
+      "y": 19
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[INFO ] 14:08:15.817 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:08:15.817 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:15.817 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:08:15.818 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:08:15.818 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:08:15.818 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:15.818 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:15.818 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:08:15.818 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:08:15.818 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:15.818 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:15.818 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:08:15.818 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:08:15.818 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[KI   ] 14:08:15.818 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:08:15.818 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:08:15.818 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:15.818 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:08:15.858 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:15.858 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:15.858 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:08:15.858 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:15.858 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:15.858 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[DEBUG] 14:08:15.858 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:15.858 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:15.858 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:08:22.343 [JavaFX Application Thread] presenter.SuspicionPresenter - Verdächtigung gewählt: RED ROPE BALLROOM
+[INFO ] 14:08:22.343 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "rope",
+    "person": "red",
+    "room": "ballroom"
+  },
+  "type": "suspect"
+}
+[INFO ] 14:08:22.343 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"statement":{"weapon":"rope","person":"red","room":"ballroom"},"type":"suspect"}
+[INFO ] 14:08:22.348 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:22.349 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"rope","person":"red","room":"ballroom"},"type":"suspicion"}
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:22.349 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "rope",
+    "person": "red",
+    "room": "ballroom"
+  },
+  "type": "suspicion"
+}
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:22.349 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"rope","person":"red","room":"ballroom"},"type":"suspicion"}
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:22.349 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "rope",
+    "person": "red",
+    "room": "ballroom"
+  },
+  "type": "suspicion"
+}
+[INFO ] 14:08:22.349 [Thread-10] model.Gamefield - 8
+[INFO ] 14:08:22.349 [Thread-10] model.Gamefield - 19
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.ClientReceive - update weapon position by suspicion
+[DEBUG] 14:08:22.349 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:22.349 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:22.349 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["disprove"]}}
+[DEBUG] 14:08:22.349 [JavaFX Application Thread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:22.349 [JavaFX Application Thread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:08:22.349 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["disprove"]}}
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:22.349 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["disprove"]
+  }
+}
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:22.349 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["disprove"]
+  }
+}
+[DEBUG] 14:08:22.349 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[INFO ] 14:08:22.349 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: PersonCard = red
+[KI   ] 14:08:22.349 [NetworkThread] Ki.KIReactToServer - I can disprove you, can I?
+[INFO ] 14:08:22.349 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: WeaponCard = ballroom
+[INFO ] 14:08:22.349 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: RoomCard = rope
+[DEBUG] 14:08:22.350 [NetworkThread] Ki.DisproveAgent - to disprove: redrope, ballroom
+[INFO ] 14:08:22.350 [NetworkThread] Ki.DisproveAgent - rope
+[INFO ] 14:08:22.350 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "disprove",
+  "card": "rope"
+}
+[INFO ] 14:08:22.350 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"disprove","card":"rope"}
+[INFO ] 14:08:22.354 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:08:22.354 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"nick":"DR.roBOTo305","type":"disproved"}
+[INFO ] 14:08:22.354 [Thread-13] network.server.ServerClientThreadRunnable - To ONLY Player : DefaultName044
+[DEBUG] 14:08:22.354 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:22.354 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "nick": "DR.roBOTo305",
+  "type": "disproved"
+}
+[DEBUG] 14:08:22.354 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:08:22.354 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"nick":"DR.roBOTo305","type":"disproved","card":"rope"}
+[DEBUG] 14:08:22.354 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:22.354 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "nick": "DR.roBOTo305",
+  "type": "disproved",
+  "card": "rope"
+}
+[INFO ] 14:08:22.354 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:08:22.354 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:08:22.354 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:08:22.354 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:08:22.354 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:08:22.354 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:22.354 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[KI   ] 14:08:22.354 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:08:22.354 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:08:22.373 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:22.373 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:22.373 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:08:22.373 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:22.373 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:22.390 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:08:22.390 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:08:22.390 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:08:35.522 [JavaFX Application Thread] presenter.NotePresenter - Notes pressed
+[INFO ] 14:08:54.747 [JavaFX Application Thread] presenter.NotePresenter - Notes pressed
+[INFO ] 14:09:00.681 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "end turn"
+}
+[INFO ] 14:09:00.681 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"end turn"}
+[INFO ] 14:09:00.681 [JavaFX Application Thread] view.CCardView - no card to render
+[INFO ] 14:09:00.687 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:00.687 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:09:00.687 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.687 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","accuse"]}}
+[INFO ] 14:09:00.687 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:09:00.687 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:09:00.687 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:00.687 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.687 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:09:00.687 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[INFO ] 14:09:00.687 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[KI   ] 14:09:00.688 [NetworkThread] Ki.KIReactToServer - I can roll the dice! FUCK YEAH
+[DEBUG] 14:09:00.688 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:00.688 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:09:00.688 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:09:00.688 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.688 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[INFO ] 14:09:00.688 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[INFO ] 14:09:00.688 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[INFO ] 14:09:00.688 [NetworkThread] Ki.KIReactToServer - Habe roll dice gesendet
+[DEBUG] 14:09:00.688 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:00.688 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.688 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:09:00.692 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:00.692 [Thread-13] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:09:00.692 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[3,3],"type":"dice result"}
+[DEBUG] 14:09:00.692 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.692 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    3,
+    3
+  ],
+  "type": "dice result"
+}
+[DEBUG] 14:09:00.692 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.692 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[DEBUG] 14:09:00.692 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.692 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[INFO ] 14:09:00.692 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[DEBUG] 14:09:00.692 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.692 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:09:00.692 [NetworkThread] network.client.Network - received msg from network
+[KI   ] 14:09:00.692 [NetworkThread] Ki.KIReactToServer - MOVE BITCH get out the way
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent - got pimps: 6 X: 15 Y: 23 color: WHITE
+[INFO ] 14:09:00.692 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent - possible moves:
+[DEBUG] 14:09:00.692 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent -   X: 14 Y: 24
+[DEBUG] 14:09:00.692 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 18
+[DEBUG] 14:09:00.692 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent -   X: 17 Y: 19
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 20
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent -   X: 17 Y: 21
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 22
+[DEBUG] 14:09:00.692 [NetworkThread] Ki.MoveAgent -   X: 15 Y: 19
+[DEBUG] 14:09:00.693 [NetworkThread] Ki.MoveAgent - check rooms
+[INFO ] 14:09:00.693 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 15,
+    "y": 19
+  },
+  "type": "move"
+}
+[INFO ] 14:09:00.693 [NetworkThread] Ki.KIReactToServer - Ich wollte mich eigentlich bewegen...
+[INFO ] 14:09:00.693 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":15,"y":19},"type":"move"}
+[INFO ] 14:09:00.696 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:00.696 [Thread-13] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:09:00.696 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":15,"y":19},"person":"white"},"type":"moved"}
+[DEBUG] 14:09:00.696 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.696 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":15,"y":19},"person":"white"},"type":"moved"}
+[INFO ] 14:09:00.696 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:09:00.696 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.696 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 15,
+      "y": 19
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:09:00.696 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.696 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 15,
+      "y": 19
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[INFO ] 14:09:00.696 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:09:00.696 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.696 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:09:00.696 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:00.696 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.696 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.696 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["suspect","accuse","end turn"]}}
+[INFO ] 14:09:00.696 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:09:00.696 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.697 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:09:00.697 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.697 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["suspect","accuse","end turn"]}}
+[INFO ] 14:09:00.697 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:09:00.697 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.697 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:09:00.697 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[INFO ] 14:09:00.697 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[KI   ] 14:09:00.697 [NetworkThread] Ki.KIReactToServer - I try to find some hints by suspect somebody
+[DEBUG] 14:09:00.697 [NetworkThread] Ki.Suspicion_AccusationAgent - possible murders: 3
+[DEBUG] 14:09:00.697 [NetworkThread] Ki.Suspicion_AccusationAgent - possible weapons: 3
+[INFO ] 14:09:00.697 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "dagger",
+    "person": "red"
+  },
+  "type": "suspect"
+}
+[DEBUG] 14:09:00.697 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.697 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"statement":{"weapon":"dagger","person":"red"},"type":"suspect"}
+[INFO ] 14:09:00.697 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:09:00.697 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.697 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:09:00.700 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:00.700 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"dagger","person":"red","room":"ballroom"},"type":"suspicion"}
+[DEBUG] 14:09:00.700 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.700 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"dagger","person":"red","room":"ballroom"},"type":"suspicion"}
+[DEBUG] 14:09:00.700 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.700 [Thread-13] model.Gamefield - 8
+[INFO ] 14:09:00.700 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "dagger",
+    "person": "red",
+    "room": "ballroom"
+  },
+  "type": "suspicion"
+}
+[INFO ] 14:09:00.700 [Thread-13] model.Gamefield - 19
+[INFO ] 14:09:00.700 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "dagger",
+    "person": "red",
+    "room": "ballroom"
+  },
+  "type": "suspicion"
+}
+[DEBUG] 14:09:00.700 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.700 [NetworkThread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:09:00.700 [NetworkThread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:09:00.701 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["disprove"]}}
+[DEBUG] 14:09:00.701 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:00.701 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["disprove"]
+  }
+}
+[DEBUG] 14:09:00.701 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:00.701 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:00.701 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["disprove"]}}
+[DEBUG] 14:09:00.701 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:09:00.701 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["disprove"]
+  }
+}
+[KI   ] 14:09:00.701 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:09:00.715 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:00.715 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.715 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:09:00.715 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:00.716 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.716 [JavaFX Application Thread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:09:00.716 [JavaFX Application Thread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:09:00.716 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: PersonCard = red
+[INFO ] 14:09:00.716 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: WeaponCard = ballroom
+[INFO ] 14:09:00.716 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: RoomCard = dagger
+[DEBUG] 14:09:00.782 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:00.782 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:00.782 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:09:00.782 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: PersonCard = red
+[INFO ] 14:09:00.782 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: WeaponCard = dagger
+[INFO ] 14:09:00.782 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: RoomCard = ballroom
+[INFO ] 14:09:28.810 [JavaFX Application Thread] presenter.DisproveSuspicionPresenter - Player disproved with correct card: red
+[INFO ] 14:09:28.811 [JavaFX Application Thread] presenter.DisproveSuspicionPresenter - DisproveCard was set: Fräulein Gloria
+[INFO ] 14:09:28.811 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "disprove",
+  "card": "red"
+}
+[INFO ] 14:09:28.811 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"disprove","card":"red"}
+[INFO ] 14:09:28.816 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:28.816 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"nick":"DefaultName044","type":"disproved"}
+[INFO ] 14:09:28.816 [Thread-10] network.server.ServerClientThreadRunnable - To ONLY Player : DR.roBOTo305
+[DEBUG] 14:09:28.816 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:28.817 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "nick": "DefaultName044",
+  "type": "disproved"
+}
+[INFO ] 14:09:28.817 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"nick":"DefaultName044","type":"disproved","card":"red"}
+[DEBUG] 14:09:28.817 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:28.817 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "nick": "DefaultName044",
+  "type": "disproved",
+  "card": "red"
+}
+[INFO ] 14:09:28.817 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:09:28.817 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:28.817 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:28.818 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:28.818 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:09:28.818 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:28.818 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:28.818 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:09:28.818 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:09:28.818 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:28.818 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[KI   ] 14:09:28.818 [NetworkThread] Ki.KIReactToServer - End this shit
+[INFO ] 14:09:28.818 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "end turn"
+}
+[INFO ] 14:09:28.818 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"end turn"}
+[INFO ] 14:09:28.822 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:28.823 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:09:28.823 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:28.823 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[DEBUG] 14:09:28.823 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:28.823 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:09:28.823 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:09:28.823 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:28.823 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[KI   ] 14:09:28.823 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:09:28.823 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:09:28.823 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:09:28.823 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:28.823 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:09:28.823 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:28.823 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:09:28.833 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:28.833 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:28.833 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:09:28.850 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:28.850 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:28.850 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:09:42.074 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[INFO ] 14:09:42.074 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[INFO ] 14:09:42.079 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:42.079 [Thread-10] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:09:42.079 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[2,5],"type":"dice result"}
+[DEBUG] 14:09:42.080 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:42.080 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[INFO ] 14:09:42.080 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    2,
+    5
+  ],
+  "type": "dice result"
+}
+[DEBUG] 14:09:42.080 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:42.080 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[INFO ] 14:09:42.080 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:09:42.080 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:42.080 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:42.080 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:42.080 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[DEBUG] 14:09:42.080 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:42.080 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:09:42.080 [JavaFX Application Thread] presenter.DicePresenter - trigger render dices
+[KI   ] 14:09:42.080 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:09:42.080 [JavaFX Application Thread] view.DiceView - view dices: pip1 2 pip2 5 sum 7
+[DEBUG] 14:09:42.081 [JavaFX Application Thread] presenter.FieldPresenter - calculate possible moves for name DefaultName044 counter GREEN x 8 y 19 pips 7
+[DEBUG] 14:09:42.084 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:42.084 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:42.084 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:09:44.754 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 5,
+    "y": 15
+  },
+  "type": "move"
+}
+[INFO ] 14:09:44.754 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":5,"y":15},"type":"move"}
+[INFO ] 14:09:44.760 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:44.760 [Thread-10] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:09:44.762 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":5,"y":15},"person":"green"},"type":"moved"}
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:44.762 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":5,"y":15},"person":"green"},"type":"moved"}
+[INFO ] 14:09:44.762 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:09:44.762 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 5,
+      "y": 15
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:44.762 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:09:44.762 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 5,
+      "y": 15
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:44.762 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:44.762 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:09:44.762 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:44.762 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:44.762 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:09:44.762 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:44.762 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:44.762 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:09:44.762 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:09:44.762 [NetworkThread] network.client.Network - received msg from network
+[KI   ] 14:09:44.762 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:09:44.762 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:09:44.791 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:44.791 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:44.791 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:09:44.791 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:44.791 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:44.791 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[DEBUG] 14:09:44.791 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:44.791 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:44.791 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:09:49.876 [JavaFX Application Thread] presenter.SuspicionPresenter - Verdächtigung gewählt: YELLOW DAGGER BILLIARD
+[INFO ] 14:09:49.876 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "dagger",
+    "person": "yellow",
+    "room": "billiard"
+  },
+  "type": "suspect"
+}
+[INFO ] 14:09:49.876 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"statement":{"weapon":"dagger","person":"yellow","room":"billiard"},"type":"suspect"}
+[INFO ] 14:09:49.881 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:09:49.882 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"dagger","person":"yellow","room":"billiard"},"type":"suspicion"}
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:49.882 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "dagger",
+    "person": "yellow",
+    "room": "billiard"
+  },
+  "type": "suspicion"
+}
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:49.882 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"dagger","person":"yellow","room":"billiard"},"type":"suspicion"}
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:09:49.882 [Thread-10] model.Gamefield - 1
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.ClientReceive - update person position by suspicion
+[INFO ] 14:09:49.882 [Thread-10] model.Gamefield - 12
+[INFO ] 14:09:49.882 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "dagger",
+    "person": "yellow",
+    "room": "billiard"
+  },
+  "type": "suspicion"
+}
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:09:49.882 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"no disprove"}
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:49.882 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:09:49.882 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "no disprove"
+}
+[DEBUG] 14:09:49.882 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:09:49.882 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"no disprove"}
+[DEBUG] 14:09:49.882 [JavaFX Application Thread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:09:49.882 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:09:49.882 [JavaFX Application Thread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:09:49.882 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "no disprove"
+}
+[INFO ] 14:09:49.882 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: PersonCard = yellow
+[INFO ] 14:09:49.882 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: WeaponCard = billiard
+[INFO ] 14:09:49.882 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: RoomCard = dagger
+[DEBUG] 14:09:49.904 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:09:49.904 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:10.671 [JavaFX Application Thread] presenter.AccusationPresenter - RED DAGGER BILLIARD
+[INFO ] 14:10:10.671 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "dagger",
+    "person": "red",
+    "room": "billiard"
+  },
+  "type": "accuse"
+}
+[INFO ] 14:10:10.672 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"statement":{"weapon":"dagger","person":"red","room":"billiard"},"type":"accuse"}
+[INFO ] 14:10:10.677 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:10.677 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"error","message":"Da hast du den falschen verdächtigt."}
+[DEBUG] 14:10:10.677 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:10.677 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "type": "error",
+  "message": "Da hast du den falschen verdächtigt."
+}
+[DEBUG] 14:10:10.678 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:10.678 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[ERROR] 14:10:10.678 [JavaFX Application Thread] network.client.ClientReceive - received error msg: 
+[ERROR] 14:10:10.678 [JavaFX Application Thread] network.client.ClientReceive - {"type":"error","message":"Da hast du den falschen verdächtigt."}
+[INFO ] 14:10:17.793 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "end turn"
+}
+[INFO ] 14:10:17.793 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"end turn"}
+[INFO ] 14:10:17.793 [JavaFX Application Thread] view.CCardView - no card to render
+[INFO ] 14:10:17.798 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:17.799 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:10:17.799 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.799 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","accuse"]}}
+[INFO ] 14:10:17.799 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:10:17.799 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.799 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[DEBUG] 14:10:17.799 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.799 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[INFO ] 14:10:17.799 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[KI   ] 14:10:17.799 [NetworkThread] Ki.KIReactToServer - I can roll the dice! FUCK YEAH
+[INFO ] 14:10:17.799 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:10:17.799 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[DEBUG] 14:10:17.799 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.799 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[DEBUG] 14:10:17.799 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:10:17.799 [NetworkThread] Ki.KIReactToServer - Habe roll dice gesendet
+[DEBUG] 14:10:17.799 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.799 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:10:17.799 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:10:17.799 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:17.799 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.799 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:10:17.803 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:17.803 [Thread-13] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:10:17.803 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[3,1],"type":"dice result"}
+[DEBUG] 14:10:17.803 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.803 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[INFO ] 14:10:17.803 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    3,
+    1
+  ],
+  "type": "dice result"
+}
+[DEBUG] 14:10:17.803 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.803 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[DEBUG] 14:10:17.803 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:17.803 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.803 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:10:17.803 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.803 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:10:17.803 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[KI   ] 14:10:17.803 [NetworkThread] Ki.KIReactToServer - MOVE BITCH get out the way
+[DEBUG] 14:10:17.803 [NetworkThread] Ki.MoveAgent - got pimps: 4 X: 15 Y: 19 color: WHITE
+[DEBUG] 14:10:17.803 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:17.803 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.803 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent - possible moves:
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 5 Y: 18
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 19
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 17
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 18
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 20
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 21
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 22
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 15
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 8 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 17
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 8 Y: 14
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 9 Y: 15
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 10 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 11 Y: 15
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 12 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 11 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 12 Y: 15
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 13 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 14 Y: 15
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 15 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 14 Y: 13
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 15 Y: 14
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 15
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 17 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 17
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 16
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 17 Y: 17
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 18
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 17 Y: 19
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 20
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 17 Y: 21
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 16 Y: 22
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent -   X: 4 Y: 19
+[DEBUG] 14:10:17.804 [NetworkThread] Ki.MoveAgent - check rooms
+[INFO ] 14:10:17.804 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 4,
+    "y": 19
+  },
+  "type": "move"
+}
+[INFO ] 14:10:17.804 [NetworkThread] Ki.KIReactToServer - Ich wollte mich eigentlich bewegen...
+[INFO ] 14:10:17.804 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":4,"y":19},"type":"move"}
+[INFO ] 14:10:17.807 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:17.807 [Thread-13] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:10:17.808 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":4,"y":19},"person":"white"},"type":"moved"}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.808 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":4,"y":19},"person":"white"},"type":"moved"}
+[INFO ] 14:10:17.808 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:10:17.808 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 4,
+      "y": 19
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.808 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 4,
+      "y": 19
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[INFO ] 14:10:17.808 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.808 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:10:17.808 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:17.808 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.808 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.808 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:10:17.808 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.808 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:10:17.808 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:10:17.808 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[KI   ] 14:10:17.808 [NetworkThread] Ki.KIReactToServer - I try to find some hints by suspect somebody
+[DEBUG] 14:10:17.808 [NetworkThread] Ki.Suspicion_AccusationAgent - possible murders: 2
+[DEBUG] 14:10:17.808 [NetworkThread] Ki.Suspicion_AccusationAgent - possible weapons: 2
+[INFO ] 14:10:17.808 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:10:17.808 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "pipe",
+    "person": "yellow"
+  },
+  "type": "suspect"
+}
+[INFO ] 14:10:17.808 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"statement":{"weapon":"pipe","person":"yellow"},"type":"suspect"}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.808 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:10:17.808 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:17.809 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:10:17.825 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:17.825 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"pipe","person":"yellow","room":"conservatory"},"type":"suspicion"}
+[INFO ] 14:10:17.826 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"pipe","person":"yellow","room":"conservatory"},"type":"suspicion"}
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.826 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "pipe",
+    "person": "yellow",
+    "room": "conservatory"
+  },
+  "type": "suspicion"
+}
+[INFO ] 14:10:17.826 [Thread-13] model.Gamefield - 4
+[INFO ] 14:10:17.826 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "pipe",
+    "person": "yellow",
+    "room": "conservatory"
+  },
+  "type": "suspicion"
+}
+[INFO ] 14:10:17.826 [Thread-13] model.Gamefield - 19
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:10:17.826 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["disprove"]}}
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:17.826 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["disprove"]
+  }
+}
+[INFO ] 14:10:17.826 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["disprove"]}}
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:17.826 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[KI   ] 14:10:17.826 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:10:17.826 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["disprove"]
+  }
+}
+[DEBUG] 14:10:17.842 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:17.842 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.842 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:10:17.883 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:17.883 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.884 [JavaFX Application Thread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:10:17.884 [JavaFX Application Thread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:10:17.884 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: PersonCard = yellow
+[INFO ] 14:10:17.884 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: WeaponCard = conservatory
+[INFO ] 14:10:17.884 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: RoomCard = pipe
+[DEBUG] 14:10:17.905 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:17.905 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:17.905 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:10:17.905 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: PersonCard = yellow
+[INFO ] 14:10:17.905 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: WeaponCard = pipe
+[INFO ] 14:10:17.905 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: RoomCard = conservatory
+[INFO ] 14:10:24.725 [JavaFX Application Thread] presenter.DisproveSuspicionPresenter - Player disproved with correct card: yellow
+[INFO ] 14:10:24.730 [JavaFX Application Thread] presenter.DisproveSuspicionPresenter - DisproveCard was set: Heizungsrohr
+[INFO ] 14:10:24.731 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "disprove",
+  "card": "pipe"
+}
+[INFO ] 14:10:24.731 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"disprove","card":"pipe"}
+[INFO ] 14:10:24.736 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:24.736 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"nick":"DefaultName044","type":"disproved"}
+[INFO ] 14:10:24.736 [Thread-10] network.server.ServerClientThreadRunnable - To ONLY Player : DR.roBOTo305
+[DEBUG] 14:10:24.736 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:24.736 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"nick":"DefaultName044","type":"disproved","card":"pipe"}
+[INFO ] 14:10:24.736 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "nick": "DefaultName044",
+  "type": "disproved"
+}
+[DEBUG] 14:10:24.736 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:24.736 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["accuse","end turn"]}}
+[INFO ] 14:10:24.736 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "nick": "DefaultName044",
+  "type": "disproved",
+  "card": "pipe"
+}
+[DEBUG] 14:10:24.736 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:10:24.736 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:10:24.736 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:24.736 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:24.736 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:24.736 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:24.736 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:10:24.736 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:10:24.736 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:24.736 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[KI   ] 14:10:24.736 [NetworkThread] Ki.KIReactToServer - End this shit
+[INFO ] 14:10:24.736 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "end turn"
+}
+[INFO ] 14:10:24.737 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"end turn"}
+[INFO ] 14:10:24.740 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:24.740 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:10:24.741 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:24.741 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["roll dice","accuse"]}}
+[DEBUG] 14:10:24.741 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:24.741 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:10:24.741 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:10:24.741 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:24.741 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "roll dice",
+      "accuse"
+    ]
+  }
+}
+[DEBUG] 14:10:24.741 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[KI   ] 14:10:24.741 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[INFO ] 14:10:24.741 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:10:24.741 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:24.741 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:10:24.741 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:24.741 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:10:24.751 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:24.751 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:24.751 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:10:24.767 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:24.767 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:24.767 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:10:31.832 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[INFO ] 14:10:31.832 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[INFO ] 14:10:31.838 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:31.838 [Thread-10] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:10:31.838 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[2,2],"type":"dice result"}
+[DEBUG] 14:10:31.838 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:31.838 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[INFO ] 14:10:31.838 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    2,
+    2
+  ],
+  "type": "dice result"
+}
+[DEBUG] 14:10:31.838 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:31.838 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["move"]}}
+[INFO ] 14:10:31.838 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:10:31.838 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:31.838 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:31.838 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:31.838 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:31.838 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:10:31.838 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:10:31.838 [JavaFX Application Thread] presenter.DicePresenter - trigger render dices
+[KI   ] 14:10:31.838 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:10:31.838 [JavaFX Application Thread] view.DiceView - view dices: pip1 2 pip2 2 sum 4
+[DEBUG] 14:10:31.839 [JavaFX Application Thread] presenter.FieldPresenter - calculate possible moves for name DefaultName044 counter GREEN x 5 y 15 pips 4
+[DEBUG] 14:10:31.843 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:31.843 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:31.843 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:10:34.588 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 6,
+    "y": 14
+  },
+  "type": "move"
+}
+[INFO ] 14:10:34.588 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":6,"y":14},"type":"move"}
+[INFO ] 14:10:34.594 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:34.594 [Thread-10] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:10:34.594 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":6,"y":14},"person":"green"},"type":"moved"}
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:34.594 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":6,"y":14},"person":"green"},"type":"moved"}
+[INFO ] 14:10:34.594 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:34.594 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:10:34.594 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 6,
+      "y": 14
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[INFO ] 14:10:34.594 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 6,
+      "y": 14
+    },
+    "person": "green"
+  },
+  "type": "moved"
+}
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:34.594 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:34.594 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 14:10:34.594 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["accuse","end turn"]}}
+[DEBUG] 14:10:34.594 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:10:34.594 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:10:34.594 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:34.594 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:34.594 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:10:34.594 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": [
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[INFO ] 14:10:34.594 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[KI   ] 14:10:34.595 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:10:34.595 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:34.595 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:10:34.612 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:34.612 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:34.612 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[DEBUG] 14:10:34.612 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:34.612 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:34.612 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[DEBUG] 14:10:34.612 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:34.612 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:34.612 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:10:36.998 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "end turn"
+}
+[INFO ] 14:10:36.998 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"end turn"}
+[INFO ] 14:10:36.998 [JavaFX Application Thread] view.CCardView - no card to render
+[INFO ] 14:10:37.003 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:37.004 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","use secret passage","accuse"]}}
+[DEBUG] 14:10:37.004 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.004 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["roll dice","use secret passage","accuse"]}}
+[INFO ] 14:10:37.004 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "use secret passage",
+      "accuse"
+    ]
+  }
+}
+[INFO ] 14:10:37.004 [Thread-10] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 14:10:37.004 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.004 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:37.004 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[INFO ] 14:10:37.004 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 14:10:37.004 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "roll dice",
+      "use secret passage",
+      "accuse"
+    ]
+  }
+}
+[KI   ] 14:10:37.004 [NetworkThread] Ki.KIReactToServer - I can roll the dice! FUCK YEAH
+[DEBUG] 14:10:37.004 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.004 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 14:10:37.004 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "roll dice"
+}
+[INFO ] 14:10:37.004 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"roll dice"}
+[DEBUG] 14:10:37.004 [JavaFX Application Thread] network.client.Network - got json from network thread
+[INFO ] 14:10:37.004 [NetworkThread] Ki.KIReactToServer - Habe roll dice gesendet
+[DEBUG] 14:10:37.004 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.004 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:10:37.004 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:37.005 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:37.005 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:10:37.008 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:37.008 [Thread-13] network.server.ServerClientThreadRunnable - rollDiceHandler
+[INFO ] 14:10:37.008 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"result":[3,4],"type":"dice result"}
+[DEBUG] 14:10:37.008 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.008 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[INFO ] 14:10:37.008 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "result": [
+    3,
+    4
+  ],
+  "type": "dice result"
+}
+[DEBUG] 14:10:37.008 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:37.008 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["move"]}}
+[DEBUG] 14:10:37.008 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:37.008 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.009 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[INFO ] 14:10:37.009 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": ["move"]
+  }
+}
+[DEBUG] 14:10:37.009 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.009 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[KI   ] 14:10:37.009 [NetworkThread] Ki.KIReactToServer - MOVE BITCH get out the way
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent - got pimps: 7 X: 4 Y: 19 color: WHITE
+[DEBUG] 14:10:37.009 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:37.009 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.009 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent - possible moves:
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 1 Y: 17
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 2 Y: 18
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 3 Y: 17
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 4 Y: 18
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 5 Y: 17
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 18
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 5 Y: 19
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 16
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 17
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 19
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 20
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 15
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 8 Y: 16
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 21
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 6 Y: 22
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 7 Y: 23
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 8 Y: 19
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent -   X: 5 Y: 15
+[DEBUG] 14:10:37.009 [NetworkThread] Ki.MoveAgent - check rooms
+[INFO ] 14:10:37.009 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "field": {
+    "x": 8,
+    "y": 19
+  },
+  "type": "move"
+}
+[INFO ] 14:10:37.009 [NetworkThread] Ki.KIReactToServer - Ich wollte mich eigentlich bewegen...
+[INFO ] 14:10:37.009 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"field":{"x":8,"y":19},"type":"move"}
+[INFO ] 14:10:37.012 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:37.012 [Thread-13] network.server.ServerClientThreadRunnable - moveHandler
+[INFO ] 14:10:37.013 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":8,"y":19},"person":"white"},"type":"moved"}
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.013 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 8,
+      "y": 19
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[INFO ] 14:10:37.013 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"person position":{"field":{"x":8,"y":19},"person":"white"},"type":"moved"}
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:37.013 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:10:37.013 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "person position": {
+    "field": {
+      "x": 8,
+      "y": 19
+    },
+    "person": "white"
+  },
+  "type": "moved"
+}
+[INFO ] 14:10:37.013 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.013 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:37.013 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:10:37.013 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.013 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:37.013 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DR.roBOTo305","color":"white","playerstate":["suspect","accuse","end turn"]}}
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:37.013 [NetworkThread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[INFO ] 14:10:37.013 [Thread-13] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 14:10:37.013 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DR.roBOTo305",
+    "color": "white",
+    "playerstate": [
+      "suspect",
+      "accuse",
+      "end turn"
+    ]
+  }
+}
+[KI   ] 14:10:37.013 [NetworkThread] Ki.KIReactToServer - I try to find some hints by suspect somebody
+[INFO ] 14:10:37.013 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 14:10:37.013 [NetworkThread] Ki.Suspicion_AccusationAgent - possible murders: 2
+[DEBUG] 14:10:37.013 [NetworkThread] Ki.Suspicion_AccusationAgent - possible weapons: 2
+[INFO ] 14:10:37.014 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "spanner",
+    "person": "blue"
+  },
+  "type": "suspect"
+}
+[INFO ] 14:10:37.014 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"statement":{"weapon":"spanner","person":"blue"},"type":"suspect"}
+[DEBUG] 14:10:37.014 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.014 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 14:10:37.014 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:37.014 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 14:10:37.017 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:37.017 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"spanner","person":"blue","room":"ballroom"},"type":"suspicion"}
+[DEBUG] 14:10:37.017 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.017 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "spanner",
+    "person": "blue",
+    "room": "ballroom"
+  },
+  "type": "suspicion"
+}
+[INFO ] 14:10:37.017 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"spanner","person":"blue","room":"ballroom"},"type":"suspicion"}
+[DEBUG] 14:10:37.017 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.017 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:37.017 [NetworkThread] network.client.ClientReceive - update person position by suspicion
+[INFO ] 14:10:37.017 [Thread-13] model.Gamefield - 8
+[INFO ] 14:10:37.017 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "spanner",
+    "person": "blue",
+    "room": "ballroom"
+  },
+  "type": "suspicion"
+}
+[DEBUG] 14:10:37.017 [NetworkThread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:10:37.017 [Thread-13] model.Gamefield - 19
+[INFO ] 14:10:37.018 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["disprove"]}}
+[DEBUG] 14:10:37.018 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:37.018 [Thread-13] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"stateupdate","player":{"nick":"DefaultName044","color":"green","playerstate":["disprove"]}}
+[INFO ] 14:10:37.018 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["disprove"]
+  }
+}
+[DEBUG] 14:10:37.018 [NetworkThread] network.client.Network - received msg from network
+[DEBUG] 14:10:37.018 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.018 [NetworkThread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:10:37.018 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "stateupdate",
+  "player": {
+    "nick": "DefaultName044",
+    "color": "green",
+    "playerstate": ["disprove"]
+  }
+}
+[KI   ] 14:10:37.018 [NetworkThread] Ki.KIReactToServer - I'm doing nothing.
+[DEBUG] 14:10:37.018 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:37.018 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.036 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:37.036 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.036 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DR.roBOTo305<
+[DEBUG] 14:10:37.036 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:37.036 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.036 [JavaFX Application Thread] network.client.ClientReceive - update person position by suspicion
+[DEBUG] 14:10:37.036 [JavaFX Application Thread] network.client.ClientReceive - update weapon position by suspicion
+[INFO ] 14:10:37.037 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: PersonCard = blue
+[INFO ] 14:10:37.037 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: WeaponCard = ballroom
+[INFO ] 14:10:37.037 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.Erh.View: RoomCard = spanner
+[DEBUG] 14:10:37.074 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:37.074 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 14:10:37.074 [JavaFX Application Thread] network.client.ClientReceive - set new playerstate of >DefaultName044<
+[INFO ] 14:10:37.074 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: PersonCard = blue
+[INFO ] 14:10:37.074 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: WeaponCard = spanner
+[INFO ] 14:10:37.074 [JavaFX Application Thread] view.VerdaechtigungSelbstWiderlegenView - Verd.SelbstWiderl.View: RoomCard = ballroom
+[INFO ] 14:10:40.343 [JavaFX Application Thread] presenter.LoginPresenter - kill gamefield view
+[INFO ] 14:10:40.343 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "leave game"
+}
+[INFO ] 14:10:40.343 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"leave game"}
+[INFO ] 14:10:40.348 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:40.348 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"spanner","person":"blue","room":"diningroom"},"type":"game ended"}
+[DEBUG] 14:10:40.348 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:40.348 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"spanner","person":"blue","room":"diningroom"},"type":"game ended"}
+[DEBUG] 14:10:40.349 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:40.349 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "spanner",
+    "person": "blue",
+    "room": "diningroom"
+  },
+  "type": "game ended"
+}
+[INFO ] 14:10:40.349 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "spanner",
+    "person": "blue",
+    "room": "diningroom"
+  },
+  "type": "game ended"
+}
+[DEBUG] 14:10:40.349 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:40.349 [NetworkThread] network.client.ClientReceive - game ended - no winner
+[INFO ] 14:10:40.349 [NetworkThread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "leave game"
+}
+[INFO ] 14:10:40.349 [Thread-13] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"leave game"}
+[DEBUG] 14:10:40.352 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 14:10:40.352 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:40.352 [JavaFX Application Thread] network.client.ClientReceive - game ended - no winner
+[INFO ] 14:10:40.353 [Thread-13] network.server.ServerClientThreadRunnable - Check Input for Type
+[FATAL] 14:10:40.353 [Thread-13] model.Global - gameID not found
+[INFO ] 14:10:45.096 [JavaFX Application Thread] main.Main - disconnect from server
+[INFO ] 14:10:45.096 [JavaFX Application Thread] network.client.ClientSent - leave played game 1
+[INFO ] 14:10:45.096 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "leave game"
+}
+[INFO ] 14:10:45.097 [JavaFX Application Thread] network.client.Network - TO SERVER:  {"type": "disconnect"}
+[INFO ] 14:10:45.097 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"leave game"}
+[INFO ] 14:10:45.102 [Thread-10] network.server.NetworkRunnable - FROM CLIENT:  {"type":"disconnect"}
+[INFO ] 14:10:45.106 [Thread-10] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 14:10:45.106 [Thread-10] network.server.ServerClientThreadRunnable - disconnectHandler
+[INFO ] 14:10:45.106 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"type":"disconnected","message":"Bis zum nächsten Mal"}
+[INFO ] 14:10:45.106 [Thread-10] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName044
+[DEBUG] 14:10:45.106 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:45.106 [Thread-10] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DefaultName044","type":"user left"}
+[INFO ] 14:10:45.106 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "type": "disconnected",
+  "message": "Bis zum nächsten Mal"
+}
+[INFO ] 14:10:45.106 [Thread-10] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DR.roBOTo305, 
+[DEBUG] 14:10:45.106 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 14:10:45.106 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DefaultName044",
+  "type": "user left"
+}
+[DEBUG] 14:10:45.106 [NetworkThread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 14:10:45.106 [NetworkThread] network.client.ClientReceive - client >DefaultName044< disconnected
+[INFO ] 14:10:45.107 [Thread-10] network.server.ServerClientThreadRunnable - User 'DefaultName044' abgemeldet. Port: 60534 IP: /192.168.178.117 Disconnected
+[ERROR] 14:10:45.107 [Thread-10] network.server.NetworkRunnable - java.net.SocketException: Socket is closed
+[INFO ] 14:10:46.098 [JavaFX Application Thread] main.Main - kill program

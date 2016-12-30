@@ -1,0 +1,9 @@
+[FATAL] 17:24:16.308 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[FATAL] 17:24:16.310 [JavaFX Application Thread] presenter.LoginPresenter - model.Gamefield@17f87e9
+[FATAL] 17:24:16.733 [JavaFX Application Thread] presenter.LoginPresenter - globalView = new GlobalView(model);
+[FATAL] 17:24:16.806 [JavaFX Application Thread] presenter.LoginPresenter - Scene scene = new Scene(globalView);
+[FATAL] 17:24:16.807 [JavaFX Application Thread] presenter.LoginPresenter - Stage globalViewStage = new Stage();
+[FATAL] 17:24:16.807 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.setScene(scene);
+[FATAL] 17:24:17.045 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.show();
+[FATAL] 17:24:17.045 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.requestFocus();
+[ERROR] 17:24:51.644 [Thread-9] network.server.NetworkRunnable - java.net.SocketException: Socket is closed

@@ -1,0 +1,196 @@
+[INFO ] 16:52:07.694 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:52:07.838 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 16:52:07.893 [Thread-6] network.server.Server - Server established on port 30305 ... listening for connections...
+[INFO ] 16:52:09.536 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 16:52:09.555 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:52:09.700 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:52:09.700 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:52:09.758 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 16:52:11.246 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 16:52:11.248 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName641 muffigemotten
+[INFO ] 16:52:11.259 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 16:52:11.260 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 16:52:11.262 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName641",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 16:52:11.280 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName641","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 16:52:11.353 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 16:52:11.354 [Thread-9] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 16:52:11.354 [Thread-9] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 16:52:11.355 [Thread-9] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 16:52:11.356 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DefaultName641"],"type":"login successful","expansions":["chat"],"game array":[]}
+[INFO ] 16:52:11.357 [Thread-9] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName641
+[INFO ] 16:52:11.357 [Thread-9] network.server.ServerClientThreadRunnable - New Client: DefaultName641
+[INFO ] 16:52:11.358 [Thread-9] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DefaultName641, 
+[INFO ] 16:52:11.358 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 16:52:11.359 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 16:52:11.361 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": ["DefaultName641"],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[INFO ] 16:52:11.363 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 16:52:11.363 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 16:52:11.365 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 16:52:15.502 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:52:15.643 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:52:15.643 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:52:15.644 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:52:15.645 [UPDThread] network.client.ClientReceive - discard udp message from other client
+[KI   ] 16:52:15.705 [JavaFX Application Thread] Ki.Ki - Ok, let's connect to server..
+[INFO ] 16:52:15.706 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 16:52:15.707 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 16:52:15.708 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DR.roBOTo120",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 16:52:15.714 [Thread-12] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DR.roBOTo120","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 16:52:15.779 [Thread-12] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 16:52:15.779 [Thread-12] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 16:52:15.780 [Thread-12] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 16:52:15.780 [Thread-12] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 16:52:15.781 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DR.roBOTo120","DefaultName641"],"type":"login successful","expansions":["chat"],"game array":[]}
+[INFO ] 16:52:15.781 [Thread-12] network.server.ServerClientThreadRunnable - To Player BUT : DR.roBOTo120
+[INFO ] 16:52:15.781 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": [
+    "DR.roBOTo120",
+    "DefaultName641"
+  ],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[INFO ] 16:52:15.781 [NetworkThread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 16:52:15.781 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DR.roBOTo120","type":"user added"}
+[KI   ] 16:52:15.782 [NetworkThread] Ki.KIReactToServer - Hey I am in!
+[INFO ] 16:52:15.782 [Thread-12] network.server.ServerClientThreadRunnable - New Client: DR.roBOTo120
+[INFO ] 16:52:15.782 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DR.roBOTo120",
+  "type": "user added"
+}
+[INFO ] 16:52:15.782 [Thread-12] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DR.roBOTo120, DefaultName641, 
+[INFO ] 16:52:15.782 [Thread-12] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 16:52:15.783 [JavaFX Application Thread] network.client.ClientReceive - another client connected
+[INFO ] 16:52:15.783 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[KI   ] 16:52:15.784 [NetworkThread] Ki.KIReactToServer - My favourite color this game is: BLUE
+[KI   ] 16:52:15.784 [NetworkThread] Ki.KIReactToServer - Then create a game!
+[INFO ] 16:52:15.789 [NetworkThread] network.client.Network - TO SERVER:  {
+  "color": "blue",
+  "type": "create game"
+}
+[INFO ] 16:52:15.789 [Thread-12] network.server.NetworkRunnable - FROM CLIENT:  {"color":"blue","type":"create game"}
+[INFO ] 16:52:15.790 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 16:52:15.790 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 16:52:15.855 [Thread-12] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 16:52:15.855 [Thread-12] network.server.ServerClientThreadRunnable - createGameHandler
+[INFO ] 16:52:15.871 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DR.roBOTo120","color":"blue","playerstate":["do nothing"]}}
+[INFO ] 16:52:15.871 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DR.roBOTo120",
+    "color": "blue",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 16:52:15.872 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DR.roBOTo120","color":"blue","playerstate":["do nothing"]}}
+[INFO ] 16:52:15.872 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DR.roBOTo120",
+    "color": "blue",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 16:52:15.872 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DR.roBOTo120","color":"blue","playerstate":["do nothing"]}}
+[INFO ] 16:52:15.873 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DR.roBOTo120","color":"blue","playerstate":["do nothing"]}}
+[INFO ] 16:52:15.873 [Thread-12] network.server.ServerClientThreadRunnable - Spiel mit GameID 1 erstellt
+[INFO ] 16:52:15.873 [Thread-12] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 16:52:15.874 [Thread-12] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 16:52:15.874 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DR.roBOTo120",
+    "color": "blue",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 16:52:15.876 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DR.roBOTo120",
+    "color": "blue",
+    "playerstate": ["do nothing"]
+  }
+}
+[ERROR] 16:52:15.876 [NetworkThread] network.client.ClientReceive - gameId 1 already exists
+[INFO ] 16:52:15.877 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 16:52:15.877 [NetworkThread] network.client.ClientReceive - Answer to request ended successful with: OK
+[ERROR] 16:52:15.878 [JavaFX Application Thread] network.client.ClientReceive - gameId 1 already exists
+[INFO ] 16:52:28.917 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "color": "green",
+  "type": "join game"
+}
+[INFO ] 16:52:28.918 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"color":"green","type":"join game"}
+[INFO ] 16:52:29.000 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 16:52:29.000 [Thread-9] network.server.ServerClientThreadRunnable - joinGameHandler
+[INFO ] 16:52:29.000 [Thread-9] network.server.ServerClientThreadRunnable - Farbe noch nicht vergeben. Spielbeitritt möglich
+[INFO ] 16:52:29.001 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"player added","player":{"nick":"DefaultName641","color":"green","playerstate":["do nothing"]}}
+[INFO ] 16:52:29.001 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "player added",
+  "player": {
+    "nick": "DefaultName641",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 16:52:29.002 [NetworkThread] Ki.KIReactToServer - not a KI game 1
+[INFO ] 16:52:29.002 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"player added","player":{"nick":"DefaultName641","color":"green","playerstate":["do nothing"]}}
+[INFO ] 16:52:29.002 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "player added",
+  "player": {
+    "nick": "DefaultName641",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 16:52:29.003 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"player added","player":{"nick":"DefaultName641","color":"green","playerstate":["do nothing"]}}
+[INFO ] 16:52:29.003 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"player added","player":{"nick":"DefaultName641","color":"green","playerstate":["do nothing"]}}
+[INFO ] 16:52:29.003 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 16:52:29.003 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 16:52:29.004 [Thread-9] network.server.ServerClientThreadRunnable - Player DefaultName641 zu Spiel 1 hinzugefügt
+[INFO ] 16:52:29.004 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "player added",
+  "player": {
+    "nick": "DefaultName641",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 16:52:29.004 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 16:52:29.005 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "player added",
+  "player": {
+    "nick": "DefaultName641",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[FATAL] 16:52:29.005 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[INFO ] 16:52:29.005 [NetworkThread] Ki.KIReactToServer - not a KI game 1

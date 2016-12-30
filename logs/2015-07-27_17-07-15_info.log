@@ -1,0 +1,204 @@
+[INFO ] 17:07:19.272 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:07:19.415 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[ERROR] 17:07:19.475 [Thread-6] network.server.Server - java.net.BindException: Address already in use: JVM_Bind
+[INFO ] 17:07:20.963 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 17:07:20.990 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:07:21.131 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:07:21.131 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:07:21.190 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:07:22.086 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 17:07:22.087 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName840 muffigemotten
+[INFO ] 17:07:22.100 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 17:07:22.102 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 17:07:22.106 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName840",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 17:07:22.181 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": [
+    "DefaultName903",
+    "DefaultName961",
+    "DefaultName840"
+  ],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": [
+    {
+      "gameID": 1,
+      "weapon positions": [
+        {
+          "weapon": "candlestick",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "dagger",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "pipe",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "revolver",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "rope",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "spanner",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        }
+      ],
+      "person positions": [{
+        "field": {
+          "x": 0,
+          "y": 18
+        },
+        "person": "blue"
+      }],
+      "players": [{
+        "nick": "DefaultName903",
+        "color": "blue",
+        "playerstate": ["do nothing"]
+      }],
+      "gamestate": "not started",
+      "watchers": []
+    },
+    {
+      "gameID": 2,
+      "weapon positions": [
+        {
+          "weapon": "candlestick",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "dagger",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "pipe",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "revolver",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "rope",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "weapon": "spanner",
+          "field": {
+            "x": 11,
+            "y": 11
+          }
+        }
+      ],
+      "person positions": [{
+        "field": {
+          "x": 9,
+          "y": 24
+        },
+        "person": "green"
+      }],
+      "players": [{
+        "nick": "DefaultName961",
+        "color": "green",
+        "playerstate": ["do nothing"]
+      }],
+      "gamestate": "not started",
+      "watchers": []
+    }
+  ]
+}
+[INFO ] 17:07:22.184 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 17:07:22.184 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 17:07:22.184 [JavaFX Application Thread] network.client.ClientReceive - parse gameId 1
+[INFO ] 17:07:22.218 [JavaFX Application Thread] network.client.ClientReceive - gameId 1 added
+[INFO ] 17:07:22.218 [JavaFX Application Thread] network.client.ClientReceive - parse gameId 2
+[INFO ] 17:07:22.219 [JavaFX Application Thread] network.client.ClientReceive - gameId 2 added
+[INFO ] 17:07:22.225 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:07:25.106 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "color": "red",
+  "type": "create game"
+}
+[INFO ] 17:07:25.194 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 3,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName840",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:07:25.199 [JavaFX Application Thread] presenter.GUIReactToServer - presenter: own game ready -> render
+[FATAL] 17:07:25.199 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[INFO ] 17:07:25.200 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 3,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName840",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:07:25.200 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[FATAL] 17:08:03.904 [JavaFX Application Thread] presenter.LoginPresenter - model.Gamefield@1cecd52
+[INFO ] 17:08:04.350 [JavaFX Application Thread] view.CCardView - no card to render
+[FATAL] 17:08:04.355 [JavaFX Application Thread] presenter.LoginPresenter - globalView = new GlobalView(model);
+[FATAL] 17:08:04.410 [JavaFX Application Thread] presenter.LoginPresenter - Scene scene = new Scene(globalView);
+[FATAL] 17:08:04.410 [JavaFX Application Thread] presenter.LoginPresenter - Stage globalViewStage = new Stage();
+[FATAL] 17:08:04.410 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.setScene(scene);
+[FATAL] 17:08:04.627 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.show();
+[FATAL] 17:08:04.632 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.requestFocus();
+[ERROR] 17:08:04.843 [JavaFX Application Thread] network.client.ClientReceive - gameId 3 already exists
+[INFO ] 17:08:04.846 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:10:26.926 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.24.205 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:10:26.928 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.24.205 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:10:30.512 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.24.205 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:10:30.513 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.24.205 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:10:30.516 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:10:41.097 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:10:41.098 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:10:43.207 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:10:43.209 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:10:43.217 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client

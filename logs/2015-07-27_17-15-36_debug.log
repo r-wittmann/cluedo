@@ -1,0 +1,189 @@
+[INFO ] 17:15:40.808 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:15:40.952 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:15:41.012 [Thread-6] network.server.Server - Server established on port 30305 ... listening for connections...
+[INFO ] 17:15:42.999 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 17:15:43.021 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:15:43.156 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:15:43.157 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 17:15:43.213 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:15:43.213 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:15:43.213 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:15:44.223 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 17:15:44.225 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName624 muffigemotten
+[INFO ] 17:15:44.237 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 17:15:44.239 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 17:15:44.245 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName624",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 17:15:44.256 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName624","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 17:15:44.340 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:15:44.340 [Thread-9] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 17:15:44.340 [Thread-9] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 17:15:44.342 [Thread-9] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 17:15:44.343 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DefaultName624"],"type":"login successful","expansions":["chat"],"game array":[]}
+[DEBUG] 17:15:44.343 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:15:44.343 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": ["DefaultName624"],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[INFO ] 17:15:44.343 [Thread-9] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName624
+[INFO ] 17:15:44.343 [Thread-9] network.server.ServerClientThreadRunnable - New Client: DefaultName624
+[INFO ] 17:15:44.343 [Thread-9] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DefaultName624, 
+[INFO ] 17:15:44.344 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 17:15:44.344 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 17:15:44.345 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:15:44.345 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 17:15:44.345 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:15:44.345 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:15:44.346 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[DEBUG] 17:15:44.347 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:15:44.348 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:15:44.348 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:15:47.716 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "color": "red",
+  "type": "create game"
+}
+[INFO ] 17:15:47.717 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"color":"red","type":"create game"}
+[INFO ] 17:15:47.800 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:15:47.801 [Thread-9] network.server.ServerClientThreadRunnable - createGameHandler
+[DEBUG] 17:15:47.824 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:15:47.824 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DefaultName624","color":"red","playerstate":["do nothing"]}}
+[INFO ] 17:15:47.825 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName624",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:15:47.825 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DefaultName624","color":"red","playerstate":["do nothing"]}}
+[INFO ] 17:15:47.825 [Thread-9] network.server.ServerClientThreadRunnable - Spiel mit GameID 1 erstellt
+[DEBUG] 17:15:47.826 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:15:47.826 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName624",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:15:47.827 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[DEBUG] 17:15:47.827 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:15:47.827 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:15:47.827 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 17:15:47.828 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:15:47.828 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 17:15:47.831 [JavaFX Application Thread] presenter.GUIReactToServer - presenter: own game ready -> render
+[FATAL] 17:15:47.831 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[FATAL] 17:16:13.442 [JavaFX Application Thread] presenter.LoginPresenter - model.Gamefield@1bf54cd
+[DEBUG] 17:16:13.881 [JavaFX Application Thread] view.DiceView - view dices: pip1 0 pip2 0 sum 0
+[INFO ] 17:16:13.885 [JavaFX Application Thread] view.CCardView - no card to render
+[FATAL] 17:16:13.889 [JavaFX Application Thread] presenter.LoginPresenter - globalView = new GlobalView(model);
+[FATAL] 17:16:13.947 [JavaFX Application Thread] presenter.LoginPresenter - Scene scene = new Scene(globalView);
+[FATAL] 17:16:13.947 [JavaFX Application Thread] presenter.LoginPresenter - Stage globalViewStage = new Stage();
+[FATAL] 17:16:13.948 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.setScene(scene);
+[FATAL] 17:16:14.165 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.show();
+[FATAL] 17:16:14.165 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.requestFocus();
+[DEBUG] 17:16:14.296 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:16:14.297 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[ERROR] 17:16:14.297 [JavaFX Application Thread] network.client.ClientReceive - gameId 1 already exists
+[DEBUG] 17:16:14.304 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:16:14.305 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:16:14.305 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:20:34.671 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:20:34.671 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[DEBUG] 17:20:34.673 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:20:34.674 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:20:36.514 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:20:36.514 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 17:20:36.516 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:20:36.516 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:20:36.516 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:23:05.831 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:23:05.832 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 17:23:05.836 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:23:05.837 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:23:05.837 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:23:15.689 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:23:15.690 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[DEBUG] 17:23:15.691 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:23:15.691 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:23:17.350 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:23:17.350 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 17:23:17.351 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:23:17.351 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:23:17.351 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:23:18.245 [Thread-11] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName969","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 17:23:18.318 [Thread-11] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:23:18.318 [Thread-11] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 17:23:18.319 [Thread-11] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 17:23:18.319 [Thread-11] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 17:23:18.321 [Thread-11] network.server.ServerClientThreadRunnable - @getGameArray verfügbare Spiele: 1
+[INFO ] 17:23:18.322 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DefaultName624","DefaultName969"],"type":"login successful","expansions":["chat"],"game array":[{"gameID":1,"weapon positions":[{"weapon":"candlestick","field":{"x":11,"y":11}},{"weapon":"dagger","field":{"x":11,"y":11}},{"weapon":"pipe","field":{"x":11,"y":11}},{"weapon":"revolver","field":{"x":11,"y":11}},{"weapon":"rope","field":{"x":11,"y":11}},{"weapon":"spanner","field":{"x":11,"y":11}}],"person positions":[{"field":{"x":16,"y":0},"person":"red"}],"players":[{"nick":"DefaultName624","color":"red","playerstate":["do nothing"]}],"gamestate":"not started","watchers":[]}]}
+[INFO ] 17:23:18.323 [Thread-11] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName969
+[INFO ] 17:23:18.327 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"nick":"DefaultName969","type":"user added"}
+[DEBUG] 17:23:18.328 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:23:18.328 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick": "DefaultName969",
+  "type": "user added"
+}
+[INFO ] 17:23:18.328 [Thread-11] network.server.ServerClientThreadRunnable - New Client: DefaultName969
+[INFO ] 17:23:18.328 [Thread-11] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DefaultName624, DefaultName969, 
+[INFO ] 17:23:18.329 [Thread-11] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 17:23:18.329 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 17:23:18.330 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:23:18.331 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:23:18.331 [JavaFX Application Thread] network.client.ClientReceive - another client connected
+[INFO ] 17:23:21.857 [Thread-11] network.server.NetworkRunnable - FROM CLIENT:  {"color":"red","type":"create game"}
+[INFO ] 17:23:21.931 [Thread-11] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:23:21.931 [Thread-11] network.server.ServerClientThreadRunnable - createGameHandler
+[INFO ] 17:23:21.932 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"gameID":2,"type":"game created","player":{"nick":"DefaultName969","color":"red","playerstate":["do nothing"]}}
+[DEBUG] 17:23:21.932 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:23:21.932 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 2,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName969",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:23:21.932 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"gameID":2,"type":"game created","player":{"nick":"DefaultName969","color":"red","playerstate":["do nothing"]}}
+[INFO ] 17:23:21.933 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"gameID":2,"type":"game created","player":{"nick":"DefaultName969","color":"red","playerstate":["do nothing"]}}
+[INFO ] 17:23:21.933 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"gameID":2,"type":"game created","player":{"nick":"DefaultName969","color":"red","playerstate":["do nothing"]}}
+[INFO ] 17:23:21.933 [Thread-11] network.server.ServerClientThreadRunnable - Spiel mit GameID 2 erstellt
+[INFO ] 17:23:21.933 [Thread-11] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 17:23:21.934 [Thread-11] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[DEBUG] 17:23:21.934 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 17:23:21.934 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 2,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName969",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[DEBUG] 17:23:21.935 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:23:21.935 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[DEBUG] 17:23:21.936 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 17:23:21.936 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[ERROR] 17:23:21.937 [JavaFX Application Thread] network.client.ClientReceive - gameId 2 already exists
+[INFO ] 17:23:52.098 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:23:52.099 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[DEBUG] 17:23:52.105 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:23:52.106 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:23:52.713 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:23:52.713 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 17:23:52.715 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:23:52.716 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:23:52.716 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[ERROR] 17:23:56.269 [Thread-11] network.server.NetworkRunnable - java.net.SocketException: Connection reset

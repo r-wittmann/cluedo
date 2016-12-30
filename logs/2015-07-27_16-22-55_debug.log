@@ -1,0 +1,90 @@
+[INFO ] 16:22:59.791 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:22:59.968 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[ERROR] 16:23:00.029 [Thread-6] network.server.Server - java.net.BindException: Address already in use: JVM_Bind
+[INFO ] 16:23:01.383 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 16:23:01.406 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:23:01.548 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:23:01.548 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 16:23:01.605 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 16:23:01.606 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 16:23:01.606 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 16:23:02.405 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 16:23:02.406 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName333 muffigemotten
+[INFO ] 16:23:02.419 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 16:23:02.420 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 16:23:02.427 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName333",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[DEBUG] 16:23:02.431 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 16:23:02.432 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": [
+    "DefaultName689",
+    "DefaultName459",
+    "DefaultName513",
+    "DefaultName333"
+  ],
+  "type": "login successful",
+  "expansions": [
+    "epansion1",
+    "epansion2",
+    "epansion3"
+  ],
+  "game array": [
+    "1",
+    "2",
+    "3"
+  ]
+}
+[DEBUG] 16:23:02.436 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 16:23:02.437 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 16:23:02.438 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 16:23:02.438 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 16:23:02.438 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 16:23:02.438 [JavaFX Application Thread] network.client.ClientReceive - no game found
+[INFO ] 16:23:02.439 [JavaFX Application Thread] network.client.ClientReceive - no game found
+[INFO ] 16:23:02.439 [JavaFX Application Thread] network.client.ClientReceive - no game found
+[DEBUG] 16:23:02.441 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 16:23:02.442 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 16:23:02.442 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 16:23:06.562 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "color": "green",
+  "type": "create game"
+}
+[DEBUG] 16:23:06.568 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 16:23:06.569 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": "4",
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName333",
+    "color": "GREEN"
+  }
+}
+[DEBUG] 16:23:06.570 [NetworkThread] network.client.Network - received msg from network
+[INFO ] 16:23:06.570 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[DEBUG] 16:23:06.571 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 16:23:06.571 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[ERROR] 16:23:06.595 [JavaFX Application Thread] network.jsonprotocol.JsonToModel - no color found
+[INFO ] 16:23:06.596 [JavaFX Application Thread] network.jsonprotocol.JsonToModel - no playerstate found
+[INFO ] 16:23:06.602 [JavaFX Application Thread] presenter.GUIReactToServer - presenter: own game ready -> render
+[DEBUG] 16:23:06.951 [JavaFX Application Thread] view.DiceView - view dices: pip1 0 pip2 0 sum 0
+[INFO ] 16:23:06.955 [JavaFX Application Thread] view.CCardView - no card to render
+[DEBUG] 16:23:07.267 [JavaFX Application Thread] network.client.Network - got json from network thread
+[DEBUG] 16:23:07.267 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 16:23:07.268 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 16:23:13.747 [JavaFX Application Thread] presenter.LoginPresenter - kill gamefield view
+[INFO ] 16:23:13.749 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 4,
+  "type": "leave game"
+}
+[INFO ] 16:23:15.649 [JavaFX Application Thread] main.Main - disconnect from server
+[INFO ] 16:23:15.650 [JavaFX Application Thread] network.client.ClientSent - leave played game 4
+[INFO ] 16:23:15.651 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 4,
+  "type": "leave game"
+}
+[INFO ] 16:23:15.652 [JavaFX Application Thread] network.client.Network - TO SERVER:  {"type": "disconnect"}
+[INFO ] 16:23:16.653 [JavaFX Application Thread] main.Main - kill program

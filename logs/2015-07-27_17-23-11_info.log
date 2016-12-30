@@ -1,0 +1,133 @@
+[INFO ] 17:23:15.542 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:23:15.690 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[ERROR] 17:23:15.765 [Thread-6] network.server.Server - java.net.BindException: Address already in use: JVM_Bind
+[INFO ] 17:23:17.184 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 17:23:17.208 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:23:17.350 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:23:17.351 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:23:17.407 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:23:18.217 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 17:23:18.219 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName969 muffigemotten
+[INFO ] 17:23:18.233 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 17:23:18.235 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 17:23:18.242 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName969",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 17:23:18.324 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": [
+    "DefaultName624",
+    "DefaultName969"
+  ],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": [{
+    "gameID": 1,
+    "weapon positions": [
+      {
+        "weapon": "candlestick",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "dagger",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "pipe",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "revolver",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "rope",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "spanner",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      }
+    ],
+    "person positions": [{
+      "field": {
+        "x": 16,
+        "y": 0
+      },
+      "person": "red"
+    }],
+    "players": [{
+      "nick": "DefaultName624",
+      "color": "red",
+      "playerstate": ["do nothing"]
+    }],
+    "gamestate": "not started",
+    "watchers": []
+  }]
+}
+[INFO ] 17:23:18.329 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 17:23:18.329 [JavaFX Application Thread] network.client.ClientReceive - parse gameId 1
+[INFO ] 17:23:18.330 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 17:23:18.359 [JavaFX Application Thread] network.client.ClientReceive - gameId 1 added
+[INFO ] 17:23:18.365 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:23:21.857 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "color": "red",
+  "type": "create game"
+}
+[INFO ] 17:23:21.933 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 2,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName969",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:23:21.934 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 2,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName969",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:23:21.935 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 17:23:21.938 [JavaFX Application Thread] presenter.GUIReactToServer - presenter: own game ready -> render
+[FATAL] 17:23:21.939 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[FATAL] 17:23:21.940 [JavaFX Application Thread] presenter.LoginPresenter - model.Gamefield@1ae9139
+[INFO ] 17:23:22.354 [JavaFX Application Thread] view.CCardView - no card to render
+[FATAL] 17:23:22.358 [JavaFX Application Thread] presenter.LoginPresenter - globalView = new GlobalView(model);
+[FATAL] 17:23:22.416 [JavaFX Application Thread] presenter.LoginPresenter - Scene scene = new Scene(globalView);
+[FATAL] 17:23:22.417 [JavaFX Application Thread] presenter.LoginPresenter - Stage globalViewStage = new Stage();
+[FATAL] 17:23:22.417 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.setScene(scene);
+[FATAL] 17:23:22.640 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.show();
+[FATAL] 17:23:22.640 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.requestFocus();
+[ERROR] 17:23:22.779 [JavaFX Application Thread] network.client.ClientReceive - gameId 2 already exists
+[INFO ] 17:23:22.781 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:23:52.100 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:23:52.100 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:23:52.713 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:23:52.714 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:23:52.719 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client

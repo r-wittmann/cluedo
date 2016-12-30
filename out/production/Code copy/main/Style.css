@@ -1,0 +1,296 @@
+//@author Maurice Rang
+
+.button {
+	-fx-background-color:DARKRED;
+	-fx-text-fill: white;
+	-fx-min-width: 230px;
+	-fx-min-height: 40px;
+	-fx-max-width: 230px;
+	-fx-max-height: 40px;
+}
+
+.button:hover {
+	-fx-background-color: #bd2f2f
+}
+
+#gameBtn{
+	-fx-background-color:DARKRED;
+	-fx-text-fill: white;
+	-fx-min-width: 140px;
+	-fx-min-height: 30px;
+	-fx-max-width: 140px;
+	-fx-max-height: 30px;
+}
+
+
+#send {
+	-fx-min-width:50px; 
+	-fx-max-width:50px;
+	-fx-min-height:30px;
+	-fx-max-height:30px;
+}
+
+#geheimBtn{
+	-fx-background-color:DARKRED;
+	-fx-text-fill: white;
+	-fx-min-width: 100px;
+	-fx-min-height: 30px;
+	-fx-max-width: 100px;
+	-fx-max-height: 30px;
+}
+
+#geheimBtn:hover{
+	-fx-background-color: #bd2f2f
+}
+
+#StartVbox {
+	-fx-background-color:#585858;
+	-fx-border-color:DARKRED;
+	-fx-border-width:10px;
+	-fx-border-radius:3px;
+	-fx-background-radius:3px;
+	
+	-fx-alignment: CENTER;
+}
+
+#vbox {
+	-fx-background-color:#585858;
+	-fx-border-color:DARKRED;
+	-fx-border-width:10px;
+	-fx-border-radius:3px;
+	-fx-background-radius:3px;
+	
+	-fx-min-width: 290px;
+	-fx-min-height:260px;
+	-fx-max-width: 290px;
+	-fx-max-height:260px;	
+	
+	-fx-alignment: CENTER;
+}
+
+#create{
+	-fx-background-color:#585858;
+	-fx-border-color:DARKRED;
+	-fx-border-width:10px;
+	-fx-border-radius:3px;
+	-fx-background-radius:3px;
+	
+	-fx-min-width: 290px;
+	-fx-min-height:260px;
+	-fx-max-width: 290px;
+	-fx-max-height:260px;
+	
+	-fx-alignment: CENTER;
+}
+
+.combo-box {
+	-fx-background-color: DARKRED;
+	-fx-text-fill: white;
+}
+
+.combo-box * {
+	-fx-background-color: DARKRED;
+	-fx-text-fill: white;
+}
+
+.combo-box *:hover {
+	-fx-background-color: #bd2f2f;
+}
+
+.combo-box .arrow {
+	-fx-background-color: #fff;
+}
+
+.text-area .content {
+	-fx-background-color: #585858;
+}
+
+.text-area{ -fx-text-fill:white;}
+
+.text-area{-fx-border-color:DARKRED;
+		   -fx-border-width:2px;}
+
+#cluedo{
+	-fx-text-fill: darkred;
+	-fx-font-family:Verdana;
+	-fx-font-size:100;
+	-fx-font-style:Italic;
+}
+
+#txt{
+	-fx-min-width:230px;
+	-fx-max-width:230px;
+	-fx-min-height:40px;
+	-fx-max-height:40px;
+	
+	-fx-background-color:darkred;
+	-fx-text-fill:white;
+	-fx-background-radius:3px;
+	-fx-alignment:center;	
+}
+
+#chat{
+	-fx-min-width:250px;
+	-fx-max-width:250px;
+	-fx-min-height:540px;
+	-fx-max-height:540px;
+}
+
+#eingabe{
+	-fx-min-width:250px;
+	-fx-max-width:250px;
+	-fx-min-height:67px;
+	-fx-max-height:67px;
+}
+
+#dropdown{
+	-fx-min-width:200px;
+	-fx-max-width:200px;
+	-fx-min-height:30px;
+	-fx-max-height:30px;
+}
+
+#gameTbl{
+	-fx-min-width:400px;
+	-fx-max-width:400px;
+	-fx-min-height:300px;
+	-fx-max-height:300px;
+	
+	-fx-background-color:#585858;
+	-fx-border-color:gray;
+	-fx-border-width:2;
+}
+
+#checkCo{
+	-fx-min-width:20px;
+	-fx-max-width:20px;
+	-fx-background-color:DARKRED
+}
+
+#column{
+	-fx-min-width:140px;
+	-fx-max-width:140px;
+	-fx-background-color:DARKRED
+}
+
+#status{
+	-fx-min-width:120px;
+	-fx-max-width:120px;
+	-fx-background-color:DARKRED
+}
+
+#header{
+	-fx-background-color:#404040;
+	-fx-text-fill:WHITE;
+	
+	-fx-min-width:396px;
+	-fx-max-width:396px;
+	-fx-min-height:30px;
+	-fx-max-height:30px;
+}
+
+#gameheader{
+	-fx-background-color:#404040;
+	-fx-text-fill:WHITE;
+	-fx-min-height:30px;
+
+}
+
+#valueSP{
+	-fx-min-width:395px;
+	-fx-max-width:395px;
+	-fx-min-height:265px;
+	-fx-max-height:265px;
+}
+
+#playerValue{
+	-fx-min-height:265px;
+	-fx-background-color:DARKRED
+}
+
+#playerVbox{
+	-fx-min-width:400px;
+	-fx-max-width:400px;
+	-fx-min-height:300px;
+	-fx-max-height:300px;
+	
+	-fx-border-width:2px;
+	-fx-border-color:DARKRED;
+	-fx-background-color:DARKRED
+}
+
+#tempname{
+	-fx-min-width:380px;
+	-fx-max-height:20px;
+	-fx-background-color:#a0a0a0
+}
+
+#geheimLbl{
+	-fx-background-color:DARKRED;
+	-fx-background-radius:3px;
+	-fx-text-fill:white;
+	-fx-min-width:200px;
+	-fx-min-height:30px;
+}
+
+#globalTxt{
+	-fx-min-width:312px;
+	-fx-min-height:80px;
+	-fx-alignment:center;
+	-fx-background-color:#585858; 
+	-fx-border-color:DARKRED; 
+	-fx-border-width:10px;
+	-fx-border-radius:3;
+	-fx-background-radius:3;
+	-fx-text-fill:white;
+}
+
+#globalHBox{
+	-fx-background-color:#585858;
+	-fx-border-color:DARKRED;
+	-fx-border-width:10px;
+	-fx-border-radius:3px;
+	-fx-background-radius:3px;
+	-fx-alignment:center;
+}
+
+#View{
+	-fx-background-color:#585858;
+	-fx-border-color:DARKRED;
+	-fx-border-width:10px
+}
+
+#AVElements{
+	-fx-min-width:180px;
+	-fx-min-height:30px;
+}
+
+#Erg{
+	-fx-text-fill:white;
+	-fx-font-size:20px;
+}
+
+/*-----------------------Dialogs-----------------------*/
+.dialog {
+	-fx-background-color:#585858;
+	-fx-border-color:DARKRED;
+	-fx-border-width:10px
+}
+
+.dialog-pane > .content.label {
+	-fx-text-fill: white;
+}
+
+.dialog:header .header-panel {
+	-fx-background-color: #585858;
+	-fx-border-color: DARKRED;
+	-fx-border-width: 0 10px 0.5px 0
+}
+
+.dialog:header .header-panel .label {
+	-fx-text-fill: white;
+}
+
+.dialog-pane > .button-bar {
+	-fx-padding: 20 20 0 0;
+}

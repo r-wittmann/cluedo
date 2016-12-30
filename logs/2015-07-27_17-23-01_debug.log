@@ -1,0 +1,8 @@
+[INFO ] 17:23:05.654 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 17:23:05.679 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:23:05.832 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[DEBUG] 17:23:05.894 [JavaFX Application Thread] network.client.ClientSent - got json from udp thread
+[DEBUG] 17:23:05.894 [JavaFX Application Thread] network.client.ClientReceive - parse type of jsonobject
+[INFO ] 17:23:05.894 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:23:07.313 [JavaFX Application Thread] main.Main - disconnect from server
+[INFO ] 17:23:08.314 [JavaFX Application Thread] main.Main - kill program

@@ -1,0 +1,11 @@
+[FATAL] 17:15:47.831 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[FATAL] 17:16:13.442 [JavaFX Application Thread] presenter.LoginPresenter - model.Gamefield@1bf54cd
+[FATAL] 17:16:13.889 [JavaFX Application Thread] presenter.LoginPresenter - globalView = new GlobalView(model);
+[FATAL] 17:16:13.947 [JavaFX Application Thread] presenter.LoginPresenter - Scene scene = new Scene(globalView);
+[FATAL] 17:16:13.947 [JavaFX Application Thread] presenter.LoginPresenter - Stage globalViewStage = new Stage();
+[FATAL] 17:16:13.948 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.setScene(scene);
+[FATAL] 17:16:14.165 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.show();
+[FATAL] 17:16:14.165 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.requestFocus();
+[ERROR] 17:16:14.297 [JavaFX Application Thread] network.client.ClientReceive - gameId 1 already exists
+[ERROR] 17:23:21.937 [JavaFX Application Thread] network.client.ClientReceive - gameId 2 already exists
+[ERROR] 17:23:56.269 [Thread-11] network.server.NetworkRunnable - java.net.SocketException: Connection reset

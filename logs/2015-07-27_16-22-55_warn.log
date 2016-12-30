@@ -1,0 +1,2 @@
+[ERROR] 16:23:00.029 [Thread-6] network.server.Server - java.net.BindException: Address already in use: JVM_Bind
+[ERROR] 16:23:06.595 [JavaFX Application Thread] network.jsonprotocol.JsonToModel - no color found

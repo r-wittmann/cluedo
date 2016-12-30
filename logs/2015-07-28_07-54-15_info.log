@@ -1,0 +1,57 @@
+[INFO ] 07:54:20.541 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 07:54:20.923 [Thread-6] network.server.Server - Server established on port 30305 ... listening for connections...
+[INFO ] 07:54:22.423 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 07:54:22.447 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 07:54:23.555 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 07:54:23.556 [JavaFX Application Thread] presenter.LoginPresenter - 127.0.0.1 30305 DefaultName337 muffigemotten
+[INFO ] 07:54:23.572 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 07:54:23.576 [JavaFX Application Thread] network.client.ClientSent - try ip: 127.0.0.1 port: 30305
+[INFO ] 07:54:23.585 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName337",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 07:54:23.597 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName337","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 07:54:23.685 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 07:54:23.685 [Thread-9] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 07:54:23.686 [Thread-9] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 07:54:23.687 [Thread-9] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 07:54:23.688 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DefaultName337"],"type":"login successful","expansions":["chat"],"game array":[]}
+[INFO ] 07:54:23.688 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": ["DefaultName337"],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[INFO ] 07:54:23.689 [Thread-9] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName337
+[INFO ] 07:54:23.689 [Thread-9] network.server.ServerClientThreadRunnable - New Client: DefaultName337
+[INFO ] 07:54:23.689 [Thread-9] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DefaultName337, 
+[INFO ] 07:54:23.689 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 07:54:23.690 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 07:54:23.690 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 07:54:23.691 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 07:54:23.693 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 07:54:27.143 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "color": "red",
+  "type": "create game"
+}
+[INFO ] 07:54:27.144 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"color":"red","type":"create game"}
+[INFO ] 07:54:27.254 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 07:54:27.255 [Thread-9] network.server.ServerClientThreadRunnable - createGameHandler
+[INFO ] 07:54:27.280 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DefaultName337","color":"red","playerstate":["do nothing"]}}
+[INFO ] 07:54:27.281 [Thread-9] network.server.ServerClientThreadRunnable - Spiel mit GameID 1 erstellt
+[INFO ] 07:54:27.281 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName337",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 07:54:27.281 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 07:54:27.281 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 07:54:27.281 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 07:54:27.286 [JavaFX Application Thread] presenter.GUIReactToServer - presenter: own game ready -> render

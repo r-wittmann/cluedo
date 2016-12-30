@@ -1,0 +1,80 @@
+[INFO ] 16:52:57.553 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:52:57.714 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 16:52:57.786 [Thread-6] network.server.Server - Server established on port 30305 ... listening for connections...
+[INFO ] 16:52:59.472 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 16:52:59.495 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:52:59.631 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:52:59.631 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:52:59.699 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 16:53:01.425 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 16:53:01.426 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName300 muffigemotten
+[INFO ] 16:53:01.438 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 16:53:01.440 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 16:53:01.444 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName300",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 16:53:01.453 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName300","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 16:53:01.539 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 16:53:01.540 [Thread-9] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 16:53:01.540 [Thread-9] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 16:53:01.542 [Thread-9] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 16:53:01.543 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DefaultName300"],"type":"login successful","expansions":["chat"],"game array":[]}
+[INFO ] 16:53:01.543 [Thread-9] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName300
+[INFO ] 16:53:01.543 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": ["DefaultName300"],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[INFO ] 16:53:01.543 [Thread-9] network.server.ServerClientThreadRunnable - New Client: DefaultName300
+[INFO ] 16:53:01.543 [Thread-9] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DefaultName300, 
+[INFO ] 16:53:01.544 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 16:53:01.544 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 16:53:01.547 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 16:53:01.547 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 16:53:01.549 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 16:53:05.532 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"color":"green","type":"create game"}
+[INFO ] 16:53:05.532 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "color": "green",
+  "type": "create game"
+}
+[INFO ] 16:53:05.615 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 16:53:05.615 [Thread-9] network.server.ServerClientThreadRunnable - createGameHandler
+[INFO ] 16:53:05.640 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName300",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 16:53:05.640 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DefaultName300","color":"green","playerstate":["do nothing"]}}
+[INFO ] 16:53:05.641 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DefaultName300","color":"green","playerstate":["do nothing"]}}
+[INFO ] 16:53:05.641 [Thread-9] network.server.ServerClientThreadRunnable - Spiel mit GameID 1 erstellt
+[INFO ] 16:53:05.642 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 16:53:05.642 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 16:53:05.646 [JavaFX Application Thread] presenter.GUIReactToServer - presenter: own game ready -> render
+[INFO ] 16:53:05.646 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName300",
+    "color": "green",
+    "playerstate": ["do nothing"]
+  }
+}
+[FATAL] 16:53:05.647 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[INFO ] 16:53:05.647 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 16:53:51.184 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 16:53:51.185 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 16:53:52.824 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:53:52.824 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.56 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:56:29.802 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.219 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 16:56:29.802 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.219 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 16:56:34.820 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.219 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:56:34.820 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.26.219 : {"type":"udp client","group":"muffigemotten"}

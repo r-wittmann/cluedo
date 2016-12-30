@@ -1,0 +1,93 @@
+[INFO ] 16:51:16.890 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:51:17.082 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[ERROR] 16:51:17.184 [Thread-6] network.server.Server - java.net.BindException: Address already in use: JVM_Bind
+[INFO ] 16:51:18.613 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 16:51:18.636 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 16:51:18.771 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:51:18.771 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 16:51:18.837 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 16:51:22.169 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 16:51:22.170 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName331 muffigemotten
+[INFO ] 16:51:22.185 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 16:51:22.187 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 16:51:22.193 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName331",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 16:51:22.275 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": [
+    "DefaultName113",
+    "DefaultName331"
+  ],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": [{
+    "gameID": 1,
+    "weapon positions": [
+      {
+        "weapon": "candlestick",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "dagger",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "pipe",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "revolver",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "rope",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "weapon": "spanner",
+        "field": {
+          "x": 11,
+          "y": 11
+        }
+      }
+    ],
+    "person positions": [{
+      "field": {
+        "x": 9,
+        "y": 24
+      },
+      "person": "green"
+    }],
+    "players": [{
+      "nick": "DefaultName113",
+      "color": "green",
+      "playerstate": ["do nothing"]
+    }],
+    "gamestate": "not started",
+    "watchers": []
+  }]
+}
+[INFO ] 16:51:22.282 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 16:51:22.281 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 16:51:22.283 [JavaFX Application Thread] network.client.ClientReceive - parse gameId 1
+[INFO ] 16:51:22.317 [JavaFX Application Thread] network.client.ClientReceive - gameId 1 added
+[INFO ] 16:51:22.334 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK

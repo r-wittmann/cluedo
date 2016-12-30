@@ -1,0 +1,113 @@
+[INFO ] 17:24:08.897 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:24:09.046 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"tcp port":30305,"type":"udp server","group":"muffigemotten"}
+[INFO ] 17:24:09.107 [Thread-6] network.server.Server - Server established on port 30305 ... listening for connections...
+[INFO ] 17:24:10.606 [JavaFX Application Thread] presenter.LoginPresenter - Client Pressed
+[INFO ] 17:24:10.628 [JavaFX Application Thread] network.udp.UdpRunnable - udp started
+[INFO ] 17:24:10.778 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:24:10.778 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.215 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:24:10.837 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:24:12.195 [JavaFX Application Thread] presenter.LoginPresenter - Submit Pressed
+[INFO ] 17:24:12.196 [JavaFX Application Thread] presenter.LoginPresenter - 10.181.17.215 30305 DefaultName942 muffigemotten
+[INFO ] 17:24:12.209 [JavaFX Application Thread] network.client.Network - Connected...
+[INFO ] 17:24:12.211 [JavaFX Application Thread] network.client.ClientSent - try ip: 10.181.17.215 port: 30305
+[INFO ] 17:24:12.216 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "nick": "DefaultName942",
+  "type": "login",
+  "expansions": ["Chat"],
+  "version": "1.2.1",
+  "group": "muffigemotten"
+}
+[INFO ] 17:24:12.222 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"nick":"DefaultName942","type":"login","expansions":["Chat"],"version":"1.2.1","group":"muffigemotten"}
+[INFO ] 17:24:12.309 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:24:12.310 [Thread-9] network.server.ServerClientThreadRunnable - loginHandler
+[INFO ] 17:24:12.310 [Thread-9] network.server.ServerClientThreadRunnable - Nick available
+[INFO ] 17:24:12.312 [Thread-9] network.server.ServerClientThreadRunnable - getGameArray
+[INFO ] 17:24:12.312 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"nick array":["DefaultName942"],"type":"login successful","expansions":["chat"],"game array":[]}
+[INFO ] 17:24:12.313 [Thread-9] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName942
+[INFO ] 17:24:12.313 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "nick array": ["DefaultName942"],
+  "type": "login successful",
+  "expansions": ["chat"],
+  "game array": []
+}
+[INFO ] 17:24:12.313 [Thread-9] network.server.ServerClientThreadRunnable - New Client: DefaultName942
+[INFO ] 17:24:12.313 [Thread-9] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: DefaultName942, 
+[INFO ] 17:24:12.314 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 17:24:12.314 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 17:24:12.315 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 17:24:12.315 [JavaFX Application Thread] network.client.ClientReceive - login to server successful, start parsing server informations
+[INFO ] 17:24:12.317 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:24:16.193 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "color": "red",
+  "type": "create game"
+}
+[INFO ] 17:24:16.194 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"color":"red","type":"create game"}
+[INFO ] 17:24:16.276 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:24:16.277 [Thread-9] network.server.ServerClientThreadRunnable - createGameHandler
+[INFO ] 17:24:16.301 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"type":"game created","player":{"nick":"DefaultName942","color":"red","playerstate":["do nothing"]}}
+[INFO ] 17:24:16.301 [Thread-9] network.server.ServerClientThreadRunnable - Spiel mit GameID 1 erstellt
+[INFO ] 17:24:16.301 [Thread-9] network.server.ServerClientThreadRunnable - Return OK
+[INFO ] 17:24:16.302 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"ok"}
+[INFO ] 17:24:16.301 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "type": "game created",
+  "player": {
+    "nick": "DefaultName942",
+    "color": "red",
+    "playerstate": ["do nothing"]
+  }
+}
+[INFO ] 17:24:16.303 [NetworkThread] network.client.Network - FROM SERVER:  {"type": "ok"}
+[INFO ] 17:24:16.308 [JavaFX Application Thread] presenter.GUIReactToServer - presenter: own game ready -> render
+[FATAL] 17:24:16.308 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[FATAL] 17:24:16.310 [JavaFX Application Thread] presenter.LoginPresenter - model.Gamefield@17f87e9
+[INFO ] 17:24:16.729 [JavaFX Application Thread] view.CCardView - no card to render
+[FATAL] 17:24:16.733 [JavaFX Application Thread] presenter.LoginPresenter - globalView = new GlobalView(model);
+[FATAL] 17:24:16.806 [JavaFX Application Thread] presenter.LoginPresenter - Scene scene = new Scene(globalView);
+[FATAL] 17:24:16.807 [JavaFX Application Thread] presenter.LoginPresenter - Stage globalViewStage = new Stage();
+[FATAL] 17:24:16.807 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.setScene(scene);
+[FATAL] 17:24:17.045 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.show();
+[FATAL] 17:24:17.045 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.requestFocus();
+[INFO ] 17:24:17.192 [JavaFX Application Thread] network.client.ClientReceive - Answer to request ended successful with: OK
+[INFO ] 17:24:49.508 [JavaFX Application Thread] presenter.LoginPresenter - kill gamefield view
+[INFO ] 17:24:49.510 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "leave game"
+}
+[INFO ] 17:24:49.511 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"leave game"}
+[INFO ] 17:24:49.587 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:24:49.590 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"gameID":1,"statement":{"weapon":"spanner","person":"purple","room":"study"},"type":"game ended"}
+[INFO ] 17:24:49.591 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "gameID": 1,
+  "statement": {
+    "weapon": "spanner",
+    "person": "purple",
+    "room": "study"
+  },
+  "type": "game ended"
+}
+[INFO ] 17:24:49.592 [JavaFX Application Thread] network.client.ClientReceive - game ended - no winner
+[INFO ] 17:24:50.877 [UPDThread] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:24:50.878 [Thread-5] network.udp.UdpRunnable - got new UDP-Broadcast from 10.181.17.12 : {"type":"udp client","group":"muffigemotten"}
+[INFO ] 17:24:50.879 [JavaFX Application Thread] network.client.ClientReceive - discard udp message from other client
+[INFO ] 17:24:51.502 [JavaFX Application Thread] main.Main - disconnect from server
+[INFO ] 17:24:51.503 [JavaFX Application Thread] network.client.ClientSent - leave played game 1
+[INFO ] 17:24:51.504 [JavaFX Application Thread] network.client.Network - TO SERVER:  {
+  "gameID": 1,
+  "type": "leave game"
+}
+[INFO ] 17:24:51.504 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"gameID":1,"type":"leave game"}
+[INFO ] 17:24:51.505 [JavaFX Application Thread] network.client.Network - TO SERVER:  {"type": "disconnect"}
+[INFO ] 17:24:51.583 [Thread-9] network.server.NetworkRunnable - FROM CLIENT:  {"type":"disconnect"}
+[INFO ] 17:24:51.641 [Thread-9] network.server.ServerClientThreadRunnable - Check Input for Type
+[INFO ] 17:24:51.641 [Thread-9] network.server.ServerClientThreadRunnable - disconnectHandler
+[INFO ] 17:24:51.642 [NetworkThread] network.client.Network - FROM SERVER:  {
+  "type": "disconnected",
+  "message": "Bis zum nächsten Mal"
+}
+[INFO ] 17:24:51.642 [Thread-9] network.server.NetworkRunnable - TO CLIENT:  {"type":"disconnected","message":"Bis zum nächsten Mal"}
+[INFO ] 17:24:51.642 [Thread-9] network.server.ServerClientThreadRunnable - To Player BUT : DefaultName942
+[INFO ] 17:24:51.643 [Thread-9] network.server.ServerClientThreadRunnable - Aktuelle Client-Liste: 
+[INFO ] 17:24:51.644 [Thread-9] network.server.ServerClientThreadRunnable - User 'DefaultName942' abgemeldet. Port: 56001 IP: /10.181.17.215 Disconnected
+[ERROR] 17:24:51.644 [Thread-9] network.server.NetworkRunnable - java.net.SocketException: Socket is closed
+[INFO ] 17:24:52.505 [JavaFX Application Thread] main.Main - kill program

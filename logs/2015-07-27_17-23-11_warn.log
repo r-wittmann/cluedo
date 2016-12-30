@@ -1,0 +1,10 @@
+[ERROR] 17:23:15.765 [Thread-6] network.server.Server - java.net.BindException: Address already in use: JVM_Bind
+[FATAL] 17:23:21.939 [JavaFX Application Thread] presenter.LoginPresenter - Start
+[FATAL] 17:23:21.940 [JavaFX Application Thread] presenter.LoginPresenter - model.Gamefield@1ae9139
+[FATAL] 17:23:22.358 [JavaFX Application Thread] presenter.LoginPresenter - globalView = new GlobalView(model);
+[FATAL] 17:23:22.416 [JavaFX Application Thread] presenter.LoginPresenter - Scene scene = new Scene(globalView);
+[FATAL] 17:23:22.417 [JavaFX Application Thread] presenter.LoginPresenter - Stage globalViewStage = new Stage();
+[FATAL] 17:23:22.417 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.setScene(scene);
+[FATAL] 17:23:22.640 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.show();
+[FATAL] 17:23:22.640 [JavaFX Application Thread] presenter.LoginPresenter - globalViewStage.requestFocus();
+[ERROR] 17:23:22.779 [JavaFX Application Thread] network.client.ClientReceive - gameId 2 already exists

@@ -1,0 +1,4 @@
+[ERROR] 14:10:10.678 [JavaFX Application Thread] network.client.ClientReceive - received error msg: 
+[ERROR] 14:10:10.678 [JavaFX Application Thread] network.client.ClientReceive - {"type":"error","message":"Da hast du den falschen verdächtigt."}
+[FATAL] 14:10:40.353 [Thread-13] model.Global - gameID not found
+[ERROR] 14:10:45.107 [Thread-10] network.server.NetworkRunnable - java.net.SocketException: Socket is closed
